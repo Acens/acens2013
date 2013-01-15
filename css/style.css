@@ -12,7 +12,6 @@ header, footer, article, section, hgroup, nav, figure {
 	display: block;
 }
 body {
-	/* Setting the default text color, size, page background and a font stack: */
 	font-size: 0.825em;
 	font-family: Arial, Helvetica, sans-serif;
 	overflow-x: hidden;
@@ -91,10 +90,10 @@ header {
 	background-color: #0a2e4e;
 }
 #sobre, #servicos {
-	background-color: #F0FFFF;
+	background-color: #FFFFFF;
 }
 #portfolio, #contato {
-	background-color: white;
+	background-color: #E1EEF9;
 }
 footer {
 	background-color: #101010;
