@@ -89,6 +89,44 @@ header, #sobre, #portfolio, #servicos, #contato, footer {
 header {
 	background-color: #0a2e4e;
 }
+.circulo {
+	border: 10px solid;
+	border-radius: 120px;
+	width: 200px;
+	height: 200px;
+	color: white;
+}
+
+.seta1 {
+	background-image: url('../img/seta1.png');
+	width: 72px;
+	height: 74px;
+	margin-top: 50px;
+	margin-left: 76px;
+	position: absolute;
+	display: none;
+}
+
+.seta2 {
+	background-image: url('../img/seta2.png');
+	width: 67px;
+	height: 68px;
+	margin-top: 72px;
+	margin-left: 57px;
+	position: absolute;
+	display: none;
+}
+
+.seta3 {
+	background-image: url('../img/seta3.png');
+	width: 60px;
+	height: 61px;
+	margin-top: 95px;
+	margin-left: 40px;
+	position: absolute;
+	display: none;
+}
+
 #sobre, #servicos {
 	background-color: #FFFFFF;
 }

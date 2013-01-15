@@ -5,6 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Acens - Mentes em desenvolvimento</title>
         <link rel="stylesheet" type="text/css" href="http://localhost/acens2013/css/style.css" />
+	
         <!-- Internet Explorer HTML5 enabling code: -->
         <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,6 +21,12 @@
         </style>
 
         <![endif]-->
+		
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js">/**/</script>
+        <script src="http://localhost/acens2013/js/jquery.scrollTo-min.js">/**/</script>
+        <script src="http://localhost/acens2013/js/script.js">/**/</script>
+		<script src="http://localhost/acens2013/js/animacaosetas.js">/**/</script>	
     </head>
     <body>
         <nav>
@@ -49,8 +56,13 @@
         </nav>
         
         <header id="homeacens">
+			<div class="circulo">
+            <div href="#" class="seta1" ></div>
+			<div href="#" class="seta2" ></div>
+			<div href="#" class="seta3" ></div>
+			</div>
             <div>
-                <hgroup>
+				<hgroup>
                     <h1>Acens</h1>
                     <h2>Mentes em desenvolvimento</h2>
                 </hgroup>
@@ -140,9 +152,5 @@
                 </p>
             </div>
         </footer>
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">/**/</script>
-        <script src="http://localhost/acens2013/js/jquery.scrollTo-min.js">/**/</script>
-        <script src="http://localhost/acens2013/js/script.js">/**/</script>
     </body>
 </html>
