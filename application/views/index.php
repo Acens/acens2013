@@ -41,7 +41,7 @@
                     <a href="#servicos">Serviços</a>
                 </li>
                 <li id="Home">
-                    <a href="#homeacens" class="homeIcon">Home</a>
+                    <a href="#homeacens" class="homeIcon"><img src="http://localhost/acens2013/img/logo.png" /></a>
                 </li>
                 <li>
                     <a href="#contato">Contato</a>
