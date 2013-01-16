@@ -9,9 +9,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face{
-    
-}
 header, footer, article, section, hgroup, nav, figure {
 	display: block;
 }
@@ -44,43 +41,50 @@ body {
 .clear{
 	clear:both;
 }
+.sombra{
+
+}
 /*MENU DE NAVEGAÇÃO*/
 #menuWrapper {
 	width: 100%;
 	height: 50px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,1.0);
 	position: fixed;
 	z-index: 999;
-	-webkit-box-shadow: 0px 2px 10px 1px rgba(90, 90, 90, 0.6);
-	box-shadow: 0px 2px 10px 1px rgba(90, 90, 90, 0.6);
+	-webkit-box-shadow: 0px 1px 0px 1px rgba(90, 90, 90, 0.4);
+	box-shadow: 0px 1px 0px 1px rgba(90, 90, 90, 0.4);
 }
 nav ul {
-	width: 772px;
+	width: 820px;
 	position: relative;
 	top: 5px;
 }
 nav li {
+	font-family: Avenir, Helvetica, Arial, Verdana, sans-serif;
 	display: block;
 	float: left;
 	margin: 0px 10px 0px;
 	padding: 10px;
 }
 nav li a, nav li a:visited {
-	font-family: 'Quando', serif;
 	color:#333;
 	text-decoration: none;
 	font-size: 24px;
 }
 nav li a:hover, nav li a:active{
-	color:#DDD;
+	opacity:0.7;
+	filter:alpha(opacity=70);
 }
 #home{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255);
     border-radius: 35px 35px 35px 35px;
     height: 48px;
     position: relative;
     top: 10px;
     width: 48px;
+    z-index: 998;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(90, 90, 90, 0.4);
+	box-shadow: 0px 3px 0px 0px rgba(90, 90, 90, 0.4);
 }
 
 #home a, #home a:visited, #home a:active{
@@ -92,6 +96,7 @@ nav li a:hover, nav li a:active{
     right: 6px;
     top: -6px;
     width: 60px;
+    z-index: 999;
 }
 #home a:hover{
 	background-color:rgba(255, 255, 255, 0.4);
@@ -137,30 +142,30 @@ header hgroup  h1 {
 
 .seta1 {
 	background-image: url('../img/seta1.png');
-	width: 72px;
-	height: 74px;
-	margin-top: 50px;
-	margin-left: 76px;
+	width: 104px;
+	height: 104px;
+    margin-left: 81px;
+    margin-top: 62px;
 	position: absolute;
 	display: none;
 }
 
 .seta2 {
 	background-image: url('../img/seta2.png');
-	width: 67px;
-	height: 68px;
-	margin-top: 72px;
-	margin-left: 57px;
+	width: 91px;
+	height: 92px;
+    margin-left: 58px;
+    margin-top: 95px;
 	position: absolute;
 	display: none;
 }
 
 .seta3 {
 	background-image: url('../img/seta3.png');
-	width: 60px;
-	height: 61px;
-	margin-top: 95px;
-	margin-left: 40px;
+	width: 81px;
+	height: 84px;
+    margin-left: 36px;
+    margin-top: 125px;
 	position: absolute;
 	display: none;
 }

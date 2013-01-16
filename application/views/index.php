@@ -31,7 +31,7 @@
 		
     </head>
     <body>
-        <div id="menuWrapper">
+        <div id="menuWrapper" class="sombra">
         <nav>
             <ul class="centro">
                 <li>
