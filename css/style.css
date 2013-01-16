@@ -4,7 +4,8 @@
 }
 @font-face {
 	font-family: 'kenyan_coffee_rg';
-	src: url('../fontes/kenyan_coffee_rg-webfont.woff') format('woff'), url('../fontes/kenyan_coffee_rg-webfont.ttf') format('truetype'), url('../fontes/kenyan_coffee_rg-webfont.svg#kenyan_coffee_rgregular') format('svg');
+	src: url('../fontes/kenyan_coffee_rg-webfont.woff') format('woff'), url('../fontes/kenyan_coffee_rg-webfont.ttf') format('truetype'), url('../fontes/kenyan_coffee_rg-webfont.svg#kenyan_coffee_rgregular') format('svg'),
+         url('../fontes/amerika sans.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -16,7 +17,7 @@ header, footer, article, section, hgroup, nav, figure {
 }
 body {
 	font-size: 1em;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Trebuchet MS;
 	overflow-x: hidden;
 }
 
@@ -99,7 +100,7 @@ nav li a:hover, nav li a:active{
 /*Titulos*/
 h1 {
 	font-size: 60px;
-	font-family: 'kenyan_coffee_rg', Arial, sans-serif;
+	font-family: 'amerika sans';
 	width: auto;
 }
 h2 {
