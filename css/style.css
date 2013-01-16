@@ -120,12 +120,18 @@ header, #sobre, #portfolio, #servicos, #contato, footer {
 header {
 	background-color: #0a2e4e;
 }
-.circulo {
-	border: 10px solid;
+
+header hgroup  h1 {
+	width: 200px;
+	position: float;
+}
+
+.circulologo {
 	border-radius: 120px;
 	width: 200px;
 	height: 200px;
-	color: white;
+	margin-left: 185px;
+	margin-top: 135px;
 }
 
 .seta1 {

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'localhost/acens2013';
+$config['base_url']	= 'http://localhost/acens2013';
 
 /*
 |--------------------------------------------------------------------------
