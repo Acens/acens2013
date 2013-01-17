@@ -10,7 +10,7 @@
         <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 
-        <style type="text/css">
+        <style type="text/css">  
         .clear {
         zoom: 1;
         display: block;
@@ -21,7 +21,6 @@
         </style>
 
         <![endif]-->
-		
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">/**/</script>
         <script src="<?php echo base_url(); ?>/js/jquery.scrollTo-min.js">/**/</script>
@@ -102,8 +101,6 @@
                     <div id="postit"><a href="#">Veja mais<br /> dos nossos<br />trabalhos!</a></div>
                 </div>
                 <div id="baseport" class="centro"><!----></div>
-                <div id="mesa"><!----></div>
-                <div id="mesa-borda" class="gradient"><!----></div>
             </article>
         </section>
 
