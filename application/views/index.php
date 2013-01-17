@@ -47,10 +47,10 @@
                     <a href="#homeacens"></a>
                 </li>
                 <li>
-                    <a href="#contato">Contato</a>
+                    <a href="#cursos">Cursos</a>
                 </li>
                 <li>
-                    <a href="#extra">Extra</a>
+                    <a href="#contato">Contato</a>
                 </li>
                 <li>
                     <a href="#">Blog</a>
@@ -126,7 +126,12 @@
             </article>
         </section>
 
-        <section id="contato">
+        <section id="cursos">
+            <h1>Nossos cursos</h1>
+        </section>
+       
+       
+        <footer id="contato">
             <article>
                 <hgroup>
                     <h1>Contato</h1>
@@ -146,10 +151,6 @@
                 <input type="button" value="Enviar" />
                 </form>
             </article>
-        </section>
-       
-       
-        <footer id="extra">
             <div class="center">
                 <p>
                     2013 - Desenvolvido por Acens - Todos os direitos reservados. 
