@@ -103,14 +103,6 @@ nav li a:hover, nav li a:active{
 }
 
 /*Titulos*/
-h1 {
-	font-size: 60px;
-	font-family: 'amerika sans';
-	width: auto;
-}
-h2 {
-	font-size: 200%;
-}
 #sobre h1, #portfolio h1, #servicos h1, #cursos h1{
 	color: #111;
 }
@@ -126,24 +118,56 @@ header, #sobre, #portfolio, #servicos, #cursos, footer {
 header {
 	background-color: #0a2e4e;
 }
+header hgroup  {
+	width: 485px;
+	position: absolute;
+	margin-left: 300px;
+}
 
-header hgroup  h1 {
-	width: 200px;
-	position: float;
+.conteudo_home {
+	border: 1px solid #0a2e4e;
+	width: 750px;
+	height: 346px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.home_text1 {
+	opacity: 0;
+	font-family: 'amerika sans';
+	font-size: 150px;
+	color: white;
+}
+
+.home_text2 {
+	opacity: 0;
+	font-family: 'amerika sans';
+	font-size: 29px;
+	color: white;
+	margin-top: -30px;
+}
+
+.home_text3 {
+	opacity: 0;
+	font-family: Trebuchet MS;
+	font-size: 36px;
+	color: white;
+	margin-left: -10px;
+	margin-top: 300px;
 }
 
 .circulologo {
+	position: absolute;
 	border-radius: 120px;
 	width: 200px;
 	height: 200px;
-	margin-left: 185px;
-	margin-top: 135px;
 }
 
 .seta1 {
 	background-image: url('../img/seta1.png');
-	width: 104px;
-	height: 104px;
+	width: 102px;
+	height: 102px;
     margin-left: 81px;
     margin-top: 62px;
 	position: absolute;
@@ -152,8 +176,8 @@ header hgroup  h1 {
 
 .seta2 {
 	background-image: url('../img/seta2.png');
-	width: 91px;
-	height: 92px;
+	width: 90px;
+	height: 90px;
     margin-left: 58px;
     margin-top: 95px;
 	position: absolute;
@@ -162,8 +186,8 @@ header hgroup  h1 {
 
 .seta3 {
 	background-image: url('../img/seta3.png');
-	width: 81px;
-	height: 84px;
+	width: 80px;
+	height: 80px;
     margin-left: 36px;
     margin-top: 125px;
 	position: absolute;

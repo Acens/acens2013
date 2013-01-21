@@ -59,17 +59,18 @@
         </div>
         
         <header id="homeacens">
-			<div class="circulologo" data-percent="100">
-				<div href="#" class="seta1" ></div>
-				<div href="#" class="seta2" ></div>
-				<div href="#" class="seta3" ></div>
-			</div>
-            <div>
+			<div class="conteudo_home">
+				<div class="circulologo" data-percent="100">
+					<div href="#" class="seta1" ></div>
+					<div href="#" class="seta2" ></div>
+					<div href="#" class="seta3" ></div>
+				</div>
 				<hgroup>
-                    <h1>Acens</h1>
-                    <h2>Mentes em desenvolvimento</h2>
-                </hgroup>
-            </div>
+					<p class="home_text1">acens</p>
+					<p class="home_text2">mentes em desenvolvimento</p>
+				</hgroup>
+				<p class="home_text3">Idealizando sonhos, desenvolvendo projetos.</p>
+			</div>
         </header>
         
         <section id="sobre">
