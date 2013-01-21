@@ -76,17 +76,12 @@
             <article>
                 <h1>Sobre a Acens</h1>
                 <div class="articleBody clear">
-                    <p>
-                        Elit vut turpis scelerisque pulvinar ultricies magna sit amet hac placerat placerat auctor elementum nec arcu dapibus dictumst elit enim sed? Amet, mauris enim, amet hac turpis, velit, ac vel? Aliquam sed, dis porttitor non arcu, mid ac, purus scelerisque? Adipiscing rhoncus urna porta nisi nisi montes sociis tortor adipiscing porttitor hac, egestas est lectus, sit turpis. Porttitor, dignissim, et, nunc augue eu ac porta, tincidunt? Augue habitasse in dapibus, aliquam scelerisque, pulvinar dignissim pulvinar magna phasellus magnis. Vel est, dis non porttitor lorem, purus arcu tortor massa lacus facilisis! In, nisi? Odio, parturient dis lorem? Ac. Tempor, tincidunt hac etiam aliquam ultricies adipiscing. Tincidunt, pulvinar augue a proin a, elit ultrices platea urna, proin et sit, habitasse integer augue.
-					</p>
-					
-					<p>	
-						Integer integer vut risus, integer pellentesque auctor, ridiculus massa natoque nisi placerat ut! Eros nec, pid elementum etiam augue! Nascetur lacus ut aliquam, rhoncus. Etiam aenean sociis massa lectus enim parturient rhoncus. Sit mus massa aenean lacus, duis montes pulvinar augue eu sagittis sit ac tincidunt dapibus ridiculus mauris ut! Adipiscing rhoncus vel in sed turpis diam ridiculus cursus! A cras pellentesque in? Lectus rhoncus, sociis mid placerat, nascetur ridiculus arcu, cum cum quis! Lorem? Lundium nisi! Dolor tristique! Magna placerat scelerisque mauris montes penatibus mattis quis cras. Enim? Ut mattis montes, nunc porttitor nunc, quis nascetur et turpis, velit placerat! Sed scelerisque, urna porttitor risus nisi hac ridiculus! Et sit facilisis proin lorem nunc amet, elementum sed cursus.
-                    </p>
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio.
-                    </p>
+                    <b>A Acens</b>
+                    <p>&nbsp; &nbsp; &nbsp; A Acens - Empresa Júnior - foi fundada em 28 de março de 2008, sendo uma iniciativa empreendedora e ousada de um grupo de aluno do curso de Ciências da Computação da Universidade Estadual do Ceará(UECE).
+                        Nossa missão é: "Toranar-se referência do MEJ nacional, oferecer serviços de quaidade e buscar reconhecimento pelo departamento de computação da UECE como uma fonto de capacitação para os alunos da graduação".</p>
+                    <b>O que fazemos</b>
+                    <p> &nbsp; &nbsp; &nbsp;Atuando há 5 anos na área de TI, a Acens vem facilitando o dia a dia de empresas, oferecendo produtos como o desenvolvimento de sites, sistemas web, cursos in company, treinamento e capacitação em TI.    
+                        Sempre atentos ao mercado de trabalho ultizamos o que há de mais moderno em ferramentas de desenvolvimento, sempre visando a qualidade de nosso serviços e a satisfação dos nossos clientes.</p>
                 </div>
             </article>
         </section>
