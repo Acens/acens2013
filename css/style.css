@@ -4,8 +4,8 @@
 }
 @font-face {
 	font-family: 'kenyan_coffee_rg';
-	src: url('../fontes/kenyan_coffee_rg-webfont.woff') format('woff'), url('../fontes/kenyan_coffee_rg-webfont.ttf') format('truetype'), url('../fontes/kenyan_coffee_rg-webfont.svg#kenyan_coffee_rgregular') format('svg'),
-         url('../fontes/amerika sans.ttf') format('ttf');
+	src: url('../fontes/amersn__-webfont.woff') format('woff'), url('../fontes/kenyan_coffee_rg-webfont.ttf') format('truetype'), url('../fontes/kenyan_coffee_rg-webfont.svg#kenyan_coffee_rgregular') format('svg'),
+         url('../fontes/amersn__-webfont') format('truetype'), url('../fontes/amersn__-webfont.eot') format('eot');
 	font-weight: normal;
 	font-style: normal;
 }
