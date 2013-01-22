@@ -1,4 +1,6 @@
 <?php 
+$this->load->view('includes/header');
+$this->load->view('includes/menu');
 $this->load->view('includes/home');
 $this->load->view('includes/sobre');
 $this->load->view('includes/portfolio');
