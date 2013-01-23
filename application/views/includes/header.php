@@ -24,7 +24,7 @@
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">/**/</script>
         <script src="<?php echo base_url(); ?>/js/jquery.scrollTo-min.js">/**/</script>
-        <script src="<?php echo base_url(); ?>/js/script.js">/**/</script>
+        <script src="<?php echo base_url(); ?>/js/scroll.js">/**/</script>
 		<script src="<?php echo base_url(); ?>/js/animacaologo.js">/**/</script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.easy-pie-chart.js"></script>
 		<script src="<?php echo base_url(); ?>/js/menu.js">/**/</script>

@@ -17,28 +17,17 @@ body {
 	font-family: Trebuchet MS;
 	overflow-x: hidden;
 }
-h1 {
-
+section h1, footer h1 {
+	font-size: 43px;
+	font-weight: bold;
+}
+section h1 {
+	position: relative;
+	text-align: center;
 }
 /*Classes*/
 .centro {
 	margin: 0 auto;
-}
-.circular {
-	width: 282px;
-	height: 282px;
-	-webkit-border-radius: 153px;
-	-moz-border-radius: 153px;
-	border-radius: 153px;
-}
-.servicocirculo {
-	border: 8px solid #BCBEC0;
-	position: relative;
-	float: left;
-	margin-right: 24px;
-}
-.largurabase {
-	width: 1000px;
 }
 .clear {
 	clear: both;
@@ -52,6 +41,7 @@ h1 {
 	height: 50px;
 	background-color: rgba(255,255,255,1.0);
 	position: absolute;
+	bottom: 0;
 	z-index: 999;
 	-webkit-box-shadow: 0px 1px 0px 1px rgba(90, 90, 90, 0.4);
 	box-shadow: 0px 1px 0px 1px rgba(90, 90, 90, 0.4);
@@ -82,7 +72,7 @@ nav li a:hover, nav li a:active {
 	border-radius: 35px 35px 35px 35px;
 	height: 48px;
 	position: relative;
-	top: -36px;
+	top: -33px;
 	width: 48px;
 	z-index: 998;
 }
@@ -117,7 +107,7 @@ header h1, footer h1 {
 header, #sobre, #portfolio, #servicos, #cursos, footer {
 	height: 800px;
 	width: 100%;
-	padding-top: 55px;
+	padding-top: 76px;
 }
 header {
 	background-color: #0a2e4e;
@@ -277,12 +267,6 @@ footer {
 #extra .center p {
 	color: #fff;
 }
-/*
- *
- * Serviços
- *
- *
- * */
  /*Newsletter*/
 .newsletter { height: 150px; width: 550px; padding-top: 25px; }
 .formsletter { height: 150px; width: 530px; padding-left: 10px; }
@@ -291,3 +275,44 @@ legend { font-size: 20px; color: white; }
 #textonew { font-size: 18px; color: white; padding-bottom: 5px; }
 input[type="email"] { font-size: 20px; width: 385px; height: 40px; border-bottom-left-radius: 5px; border-bottom-right-radius:0; border-top-left-radius:5px; border-top-right-radius: 0; }
 #enviar { font-size: 18px; width: 60px; height: 44px; border-bottom-left-radius: 0; border-bottom-right-radius: 5px; border-top-left-radius: 0; border-top-right-radius: 5px; position: absolute; }
+/*
+ *
+ * Serviços
+ *
+ *
+ * */
+.circular {
+	width: 282px;
+	height: 282px;
+	-webkit-border-radius: 153px;
+	-moz-border-radius: 153px;
+	border-radius: 153px;
+}
+.servico {
+	position: relative;
+	float: left;
+	margin: 30px 33px 0px 0px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+.servicocirculo {
+	border: 8px solid #BCBEC0;
+}
+.largurabase {
+	width: 1000px;
+}
+#deskcirculo img, #midiascirculo img{
+	position:relative;
+	top:60px;
+}
+#midiascirculo img{
+	position:relative;
+	left:-2px;
+	top:59px;
+}
+#webcirculo img{
+	position:relative;
+	top:66px;
+}
+
