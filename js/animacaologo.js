@@ -23,4 +23,13 @@ $(document).ready(function(){
 		'margin-left': 20,
 		'opacity': 1
 	},800);
+	
+	
+	// Mapa google
+	$('#map').gmap().bind('init', function(ev, map) {
+	$('#map').gmap('addMarker', {'position': '57.7973333,12.0502107', 'bounds': true}).click(function() {
+		$('#map').gmap('openInfoWindow', {'content': 'Acens'}, this);
+	});
 });
+});
+

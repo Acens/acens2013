@@ -1,7 +1,8 @@
       <section id="sobre">
             <article>
                 <h1>Sobre a Acens</h1>
-                <div class="articleBody clear">
+            	<div id="imagem"></div>
+                <div class="texto_sobre">
                     <b>A Acens</b>
                     <p>&nbsp; &nbsp; &nbsp; A Acens - Empresa Júnior - foi fundada em 28 de março de 2008, sendo uma iniciativa empreendedora e ousada de um grupo de aluno do curso de Ciências da Computação da Universidade Estadual do Ceará(UECE).
                         Nossa missão é: "Toranar-se referência do MEJ nacional, oferecer serviços de quaidade e buscar reconhecimento pelo departamento de computação da UECE como uma fonto de capacitação para os alunos da graduação".</p>

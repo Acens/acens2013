@@ -22,6 +22,7 @@
                 //$this->load->view('newsletter');
                 include "newsletter.php";
             ?>
+            <div id="map"></div>
             <div class="center">
                 <p>
                     2013 - Desenvolvido por Acens - Todos os direitos reservados. 
