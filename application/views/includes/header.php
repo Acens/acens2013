@@ -22,12 +22,15 @@
 
         <![endif]-->
 		
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">/**/</script>
-        <script src="<?php echo base_url(); ?>/js/jquery.scrollTo-min.js">/**/</script>
-        <script src="<?php echo base_url(); ?>/js/script.js">/**/</script>
-		<script src="<?php echo base_url(); ?>/js/animacaologo.js">/**/</script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">/**/</script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.scrollTo-min.js">/**/</script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>/js/script.js">/**/</script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>/js/animacaologo.js">/**/</script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.easy-pie-chart.js"></script>
-		<script src="<?php echo base_url(); ?>/js/menu.js">/**/</script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>/js/menu.js">/**/</script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.ui.map.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
 		
     </head>
     <body>
