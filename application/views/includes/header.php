@@ -27,6 +27,7 @@
         <script src="<?php echo base_url(); ?>/js/script.js">/**/</script>
 		<script src="<?php echo base_url(); ?>/js/animacaologo.js">/**/</script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.easy-pie-chart.js"></script>
+		<script src="<?php echo base_url(); ?>/js/menu.js">/**/</script>
 		
     </head>
     <body>
