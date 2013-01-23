@@ -28,7 +28,9 @@ section h1 {
 	position: relative;
 	text-align: center;
 }
-
+img{
+	border: none;
+}
 
 /*Classes*/
 .centro {
