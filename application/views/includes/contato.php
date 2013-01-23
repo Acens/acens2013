@@ -17,7 +17,11 @@
                 </textarea><br />         
                 <input type="button" value="Enviar" />
                 </form>
-            </article>
+            </article>  
+            <?php
+                //$this->load->view('newsletter');
+                include "newsletter.php";
+            ?>
             <div class="center">
                 <p>
                     2013 - Desenvolvido por Acens - Todos os direitos reservados. 
