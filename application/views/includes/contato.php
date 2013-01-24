@@ -1,10 +1,10 @@
-        <footer>
+        <footer id="contato">
             <article>
                 <hgroup>
                     <h1>Contato</h1>
                     <h2>Texto sobr contato etc....</h2>
                 </hgroup>
-                <div id="contato">
+                <div id="contato_local">
                     <fieldset id="fieldsetContato">
                         <legend>
                             Entre em contato conosco
