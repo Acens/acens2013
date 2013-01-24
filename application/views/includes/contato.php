@@ -1,28 +1,30 @@
-        <footer id="contato">
+        <footer>
             <article>
                 <hgroup>
                     <h1>Contato</h1>
                     <h2>Texto sobr contato etc....</h2>
                 </hgroup>
-                <form>
-                    <label>Nome:
-                        <input type="text" name="nome" />
-                    </label>
-                    <br />
-                    <label>E-mail:
-                        <input type="email" name="email" />
-                    </label>
-                    <br />
-                    <textarea name="menssagem" cols="40" rows="5">
-                </textarea><br />         
-                <input type="button" value="Enviar" />
-                </form>
+                <div id="contato">
+                    <fieldset id="fieldsetContato">
+                        <legend>
+                            Entre em contato conosco
+                        </legend>
+                        <?php
+                            echo form_open('includes/contato');
+                            echo form_input(array('class'=>'form','name'=>'nome','placeholder'=>'NOME',),'','autofocus');
+                            echo form_input(array('class'=>'form','type'=>'email','name'=>'email','placeholder'=>'E-MAIL',),'','autofocus');
+                            echo form_textarea(array('id'=>'mensagem','name'=>'mensagem','cols'=>'48','rows'=>'6','placeholder'=>'MENSAGEM',),'','autofocus');
+                            echo form_submit(array('id'=>'formsubmit',),'Enviar');
+                            echo form_close();
+                        ?>
+                    </fieldset>
+                </div>
+                <div id="map"></div>
             </article>  
             <?php
                 //$this->load->view('newsletter');
                 include "newsletter.php";
             ?>
-            <div id="map"></div>
             <div class="center">
                 <p>
                     2013 - Desenvolvido por Acens - Todos os direitos reservados. 
