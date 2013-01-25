@@ -31,7 +31,9 @@ section h1 {
 img{
 	border: none;
 }
-
+a{
+	outline: none;
+}
 /*Classes*/
 .centro {
 	margin: 0 auto;
@@ -348,16 +350,22 @@ footer {
 .servico {
 	position: relative;
 	float: left;
-	margin: 30px 33px 0px 0px;
 	text-align: center;
 	font-size: 22px;
 	font-weight: bold;
+	list-style: none;
+}
+#servicos ul>:first-child{
+	margin-right:28px;
+}
+#servicos ul>:last-child{
+	margin-left:28px;
 }
 .servicocirculo {
 	border: 8px solid #BCBEC0;
 }
 .largurabase {
-	width: 1000px;
+	width: 950px;
 }
 #deskcirculo img, #midiascirculo img{
 	position:relative;
@@ -371,6 +379,11 @@ footer {
 #webcirculo img{
 	position:relative;
 	top:66px;
+}
+#tec li{
+	float:left;
+	list-style: none;
+	
 }
 
 /*Contato*/

@@ -29,7 +29,9 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.easy-pie-chart.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/menu.js">/**/</script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.ui.map.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>/js/hovers.js">/**/</script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		
 
 		
     </head>

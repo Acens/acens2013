@@ -16,7 +16,7 @@ $(document).ready(function() {
 			$('#home').animate({
 				'top' : 10,
 			}, 0);
-			
+
 			$('#home').attr('class', 'logosombra');
 		} else {
 			$('#menuWrapper').css({
@@ -26,7 +26,7 @@ $(document).ready(function() {
 			$('#home').animate({
 				'top' : -33,
 			}, 0);
-			
+
 			$('#home').removeAttr('class', 'logosombra');
 		}
 	});
