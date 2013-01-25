@@ -263,7 +263,24 @@ footer {
  * O portfólio
  *
  *
- * */
+ */
+#portfolio { height: 800px; }
+
+#menuEsquerda { height: 100px; width: 100px; margin-left: 268px; margin-top: 130px; position: absolute; }
+#menuDireita { height: 100px; width: 100px; margin-top: 130px; }
+
+a { font-size: 25px; text-decoration: none; }
+a:hover { color: red; }
+
+#portfolioEsquerda { height: 500px; width: 370px; }
+#portfolioMeio { height: 500px; width: 600px; margin-left: 371px; position: absolute; }
+#portfolioDireita { height: 500px; width: 370px; margin-left: 973px; position: absolute; }
+#munitor { height: 500px; width: 600px; }
+
+#slider { height:320px; width:452px; border-radius: 3px; margin-top:-470px; margin-left:73px; position: absolute; }
+.site { height:320px; width:452px; position: absolute; }
+#site { height:320px; width:452px; border-radius: 3px; margin-top:-470px; margin-left:73px; position: absolute; }
+/*
 #telafora, #teladentro {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -304,7 +321,7 @@ footer {
 	position: relative;
 	z-index: 2;
 }
-
+*/
 #mesa {
 	background-color: #FFFDEB;
 	position: relative;
