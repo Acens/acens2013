@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Acens - Mentes em desenvolvimento</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/style.css" />
-	
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/jquery.fancybox.css" />
         <!-- Internet Explorer HTML5 enabling code: -->
         <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,5 +33,7 @@
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/portfolio.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.fancybox.js">/**/</script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>/js/lightbox.js">/**/</script>
     </head>
     <body onLoad="slider();">

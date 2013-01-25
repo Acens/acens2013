@@ -22,7 +22,6 @@
                 <div id="map"></div>
             </article>  
             <?php
-                //$this->load->view('newsletter');
                 include "newsletter.php";
             ?>
             <div class="center">

@@ -11,15 +11,15 @@
                 </div>
             <div>
             <div id="portfolioMeio">
-                <img id="munitor" src="img/munitor.png"/>
+                <img id="monitor" src="img/munitor.png"/>
                 <a id="link" href="#"><img id="site" src="#"/></a>
                 <div id="slider">
-                    <a class="link" href="http://www.acens.com.br"><img class="site" src="img/acens.png"/></a>
-                    <a class="link" href="http://www.gmail.com.br"><img class="site" src="img/gmail.png"/></a>
-                    <a class="link" href="http://www.hotmail.com.br"><img class="site" src="img/hotmail.png"/></a>
-                    <a class="link" href="http://www.youtube.com.br"><img class="site" src="img/youtube.png"/></a>
-                    <a class="link" href="http://www.janinesimoes.com.br"><img class="site" src="img/janinesimoes.png"/></a>
-                    <a class="link" href="http://www.rict.com.br"><img class="site" src="img/rict.png"/></a>
+                    <a class="link" href="http://www.acens.com.br"><img class="site" src="img/portfolio/acens.png"/></a>
+                    <a class="link" href="http://www.gmail.com.br"><img class="site" src="img/portfolio/gmail.png"/></a>
+                    <a class="link" href="http://www.hotmail.com.br"><img class="site" src="img/portfolio/hotmail.png"/></a>
+                    <a class="link" href="http://www.youtube.com.br"><img class="site" src="img/portfolio/youtube.png"/></a>
+                    <a class="link" href="http://www.janinesimoes.com.br"><img class="site" src="img/portfolio/janinesimoes.png"/></a>
+                    <a class="link" href="http://www.rict.com.br"><img class="site" src="img/portfolio/rict.png"/></a>
                 </div>
             </div>
             <div id="portfolioDireita">
@@ -31,14 +31,5 @@
                 </div>
             <div>
         </div>
-        <!--
-        <div id="telafora" class="centro">
-            <div id="teladentro">
-                
-            </div>
-            <div id="postit"><a href="#">Veja mais<br /> dos nossos<br />trabalhos!</a></div>
-        </div>
-        <div id="baseport" class="centro"></div>
-        -->
     </article>
 </section>
