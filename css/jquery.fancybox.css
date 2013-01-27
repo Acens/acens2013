@@ -165,14 +165,13 @@
 /* Overlay helper */
 
 .fancybox-lock {
-	overflow: hidden;
+	margin: 0 !important;
 }
 
 .fancybox-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
-	overflow: hidden;
 	display: none;
 	z-index: 8010;
 	background: url('../img/fancybox/fancybox_overlay.png');

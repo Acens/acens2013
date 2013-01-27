@@ -12,7 +12,6 @@
             <div>
             <div id="portfolioMeio">
                 <img id="monitor" src="img/munitor.png"/>
-                <a id="link" href="#"><img id="site" src="#"/></a>
                 <div id="slider">
                     <a class="link" href="http://www.acens.com.br"><img class="site" src="img/portfolio/acens.png"/></a>
                     <a class="link" href="http://www.gmail.com.br"><img class="site" src="img/portfolio/gmail.png"/></a>
