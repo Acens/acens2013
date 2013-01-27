@@ -223,7 +223,7 @@ header hgroup {
 	position: relative;
 }
 /*PORTFOLIO*/
-#portfolio {
+#portfolio-tudo {
 	height: 800px;
 }
 
@@ -240,11 +240,11 @@ header hgroup {
 	margin-top: 130px;
 }
 
-#portfolio a {
+#portfolio-tudo a {
 	font-size: 25px;
 	text-decoration: none;
 }
-#portfolio a:hover {
+#portfolio-tudo a:hover {
 	color: #A70000;
 }
 
@@ -270,17 +270,19 @@ header hgroup {
 }
 
 #slider {
-	height: 320px;
-	width: 452px;
+	height: 289px;
+	width: 538px;
 	border-radius: 3px;
 	margin-top: -470px;
 	margin-left: 73px;
 	position: absolute;
 }
 .site {
-	height: 320px;
-	width: 452px;
-	position: absolute;
+    height: 289px;
+    left: -41px;
+    position: relative;
+    top: -7px;
+    width: 538px;
 }
 
 #extra .center p {

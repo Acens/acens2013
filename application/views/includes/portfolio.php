@@ -1,7 +1,7 @@
 <section id="portfolio">
     <article>
         <h1>Portfólio</h1>
-        <div id="portfolio">
+        <div id="portfolio-tudo">
             <div id="portfolioEsquerda">
                 <div id="menuEsquerda">
                     <a href="#" id="anterior">Anterior</a>
@@ -11,7 +11,7 @@
                 </div>
             <div>
             <div id="portfolioMeio">
-                <img id="monitor" src="img/munitor.png"/>
+                <img id="monitor" src="img/monitor.png"/>
                 <div id="slider">
                     <a class="link" href="http://www.acens.com.br"><img class="site" src="img/portfolio/acens.png"/></a>
                     <a class="link" href="http://www.gmail.com.br"><img class="site" src="img/portfolio/gmail.png"/></a>
