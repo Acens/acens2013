@@ -3,11 +3,10 @@ function troca(img) {
 	$('#site').fadeIn(1000);
 	$('#slider').fadeOut(300);
 	link = "http://www." + img + ".com.br";
-	imagem = "img/" + img + ".png";
+	imagem = "img/portfolio/" + img + ".png";
 	window.document.getElementById("site").src=imagem;
 	window.document.getElementById("link").href=link;
 }
-
 function ligar() {
 	$('#slider').fadeIn(1000);
 	$('#site').fadeOut(300);
@@ -21,7 +20,7 @@ slideX, slideY, toss, turnUp, turnDown, turnLeft, turnRight, uncover, wipe e zoo
 */
 function slider() {
 	$("#slider").cycle({
-		fx: 'toss',
+		fx: 'fade',
 		speed: 2000,
 		timeout: 3000,
 		prev: '#anterior',

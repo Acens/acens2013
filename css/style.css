@@ -228,14 +228,14 @@ header hgroup {
 }
 
 #menuEsquerda {
-	height: 100px;
+	height: 200px;
 	width: 100px;
 	margin-left: 268px;
 	margin-top: 130px;
 	position: absolute;
 }
 #menuDireita {
-	height: 100px;
+	height: 200px;
 	width: 100px;
 	margin-top: 130px;
 }
@@ -268,23 +268,25 @@ header hgroup {
 	height: 500px;
 	width: 600px;
 }
-
 #slider {
-	height: 289px;
-	width: 538px;
-	border-radius: 3px;
-	margin-top: -470px;
-	margin-left: 73px;
+	height:289px;
+	width:538px;
+	border-radius:3px;
+	margin-left:29px;
+	margin-top:-773px;
 	position: absolute;
 }
-.site {
-    height: 289px;
-    left: -41px;
-    position: relative;
-    top: -7px;
-    width: 538px;
+#site {
+	height:289px;
+	width:538px;
+  	left:30px;
+  	top:-478px;
+  	position: relative;
 }
-
+.site {
+	height: 289px;
+	width: 538px;
+}
 #extra .center p {
 	color: #fff;
 }
