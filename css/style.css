@@ -109,7 +109,7 @@ nav li a:hover, nav li a:active {
 header, #sobre, #portfolio, #servicos, #cursos, footer {
 	height: 800px;
 	width: 100%;
-	padding-top: 85px;
+	padding-top: 7%;
 }
 header {
 	background-color: #0a2e4e;
@@ -195,23 +195,81 @@ header hgroup {
 }
 /*SOBRE*/
 #sobre article {
-	width: 96%;
+	width: 1042px;
 	height: 400px;
-	border: 2px solid black;
 	margin: 0 auto;
-	margin-top: 50px;
 }
 #imagem {
-	width: 300px;
-	height: 200px;
-	border: 1px solid red;
+	width: 340px;
+	height: 230px;
+	margin-top: 30px;
+	background-color: lightblue;
 }
 .texto_sobre {
-	margin-left: 330px;
-	margin-top: -202px;
-	width: 964px;
-	height: 200px;
-	border: 1px green solid;
+	text-align: justify;
+	margin-left: 360px;
+	margin-top: -220px;
+	width: 680px;
+	height: 207px;
+	font-size: 15px;
+}
+#sobre h2 {
+	padding-top: 60px; 
+	padding-left: 30px;
+	padding-bottom: 30px; 
+}
+#saiba_mais {
+	width: 835px;
+	height: 41px;
+}
+#secao_ej {
+	width: 246px;
+	height: 31px;
+	padding-top: 10px;
+}
+#secao_mej {
+	width: 267px;
+	height: 31px;
+	padding-top: 10px;
+	margin-left: 274px;
+	margin-top: -41px;
+}
+#secao_bj {
+	height: 31px;
+	padding-top: 10px;
+	margin-top: -41px;
+	margin-left: 564px;
+	width: 271px;
+}
+#texto_ej {
+	width: 145px;
+	height: 20px;
+}
+#texto_mej {
+	width: 163px;
+	height: 20px;
+}
+#texto_bj {
+	width: 168px;
+	height: 20px;
+}
+#botao_ej {
+	margin-left: 150px;	
+}
+#botao_mej {
+	margin-left: 171px;
+}
+#botao_bj {
+	margin-left: 175px;	
+}
+#sobre a {
+	width: 83px;
+	height: 5px;
+	font-size: 13px;
+	padding: 5px;
+	height: 20px;
+	display: block;
+	margin-top: -27px;
 }
 #map {
 	width: 400px;
