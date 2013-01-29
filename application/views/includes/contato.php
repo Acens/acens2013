@@ -11,9 +11,9 @@
                         </legend>
                         <?php
                             echo form_open('includes/contato');
-                            echo form_input(array('class'=>'form','name'=>'nome','placeholder'=>'NOME',),'','autofocus');
-                            echo form_input(array('class'=>'form','type'=>'email','name'=>'email','placeholder'=>'E-MAIL',),'','autofocus');
-                            echo form_textarea(array('id'=>'mensagem','name'=>'mensagem','cols'=>'48','rows'=>'6','placeholder'=>'MENSAGEM',),'','autofocus');
+                            echo form_input(array('class'=>'form','name'=>'nome','placeholder'=>'NOME',),'','');
+                            echo form_input(array('class'=>'form','type'=>'email','name'=>'email','placeholder'=>'E-MAIL',),'','');
+                            echo form_textarea(array('id'=>'mensagem','name'=>'mensagem','cols'=>'48','rows'=>'6','placeholder'=>'MENSAGEM',),'','');
                             echo form_submit(array('id'=>'formsubmit',),'Enviar');
                             echo form_close();
                         ?>
