@@ -25,9 +25,6 @@
                             echo form_textarea(array('id'=>'mensagem','name'=>'mensagem','cols'=>'48','rows'=>'6','placeholder'=>'Digite sua mensagem',));
                             echo form_submit(array('id'=>'formsubmit',),'Enviar');
                             echo form_close();
-							$this->form_validation->set_rules('nome', 'Nome', 'required');
-							//$this->form_validation->set_rules('email', 'e-mail', '|required|min_length[5]|');
-							$this->form_validation->set_rules('email', 'e-mail', 'callback_checar_email');
                         ?>
                     </fieldset>
                 </div>
