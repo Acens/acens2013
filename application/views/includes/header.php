@@ -26,5 +26,6 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/plugins.min.js">/**/</script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/portfolio.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>/js/jQuery-Transit.js"></script>
     </head>
-    <body onLoad="slider();">
+    <body onLoad="fechar()">

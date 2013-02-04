@@ -1,33 +1,21 @@
 <section id="portfolio">
     <article>
-        <h1>Portfólio</h1>
-        <div id="portfolio-tudo">
-            <div id="portfolioEsquerda">
-                <div id="menuEsquerda">
-                    <a href="#" id="anterior">Anterior</a>
-                    <a href="#" onmouseover="troca('acens');" onmouseout="ligar();">Acens</a>
-                    <a href="#" onmouseover="troca('harmonyfortaleza');" onmouseout="ligar();">Harmony</a>
-                    <!--<a href="#" onmouseover="troca('');" onmouseout="ligar();"></a>-->
+            <h1>Portfólio</h1>
+            <div id="portfolio-tudo">
+                <div id="ampliacao" onClick="fechar()">
+                    <img id="ampImag" src="#"/>
+                    <!--<div id="divTexto">
+                        <p id="texto"></p>
+                    </div>-->
                 </div>
-            <div>
-            <div id="portfolioMeio">
-                <img id="monitor" src="img/portfolio/monitor.png"/>
-                <a id="link" href="#"><img id="site" src="#"/></a>
-                <div id="slider">
-                    <a href="http://www.acens.com.br"><img class="site" src="img/portfolio/acens.png"/></a>
-                    <a href="http://www.harmonifortaleza.com.br"><img class="site" src="img/portfolio/harmonyfortaleza.png"/></a>
-                    <a href="http://www.janinesimoes.com.br"><img class="site" src="img/portfolio/rict.png"/></a>
-                    <a href="http://www.rict.com.br"><img class="site" src="img/portfolio/janinesimoes.png"/></a>
+                <div id="portfolioMeio">
+                    <div class="divImg" onClick="ampliar(0);"><img class="img" src="img/portfolio/acens.png"></div>
+                    <div class="divImg" onClick="ampliar(1);"><img class="img" src="img/portfolio/harmonyfortaleza.png"></div>
+                    <div class="divImg" onClick="ampliar(2);"><img class="img" src="img/portfolio/janinesimoes.png"></div>
+                    <div class="divImg" onClick="ampliar(3);"><img class="img" src="img/portfolio/rict.png"></div>
+                    <div class="divImg" onClick="ampliar(0);"><img class="img" src="img/portfolio/acens.png"></div>
+                    <div class="divImg" onClick="ampliar(0);"><img class="img" src="img/portfolio/acens.png"></div>
                 </div>
             </div>
-            <div id="portfolioDireita">
-                <div id="menuDireita">
-                    <a href="#" id="proximo">Proximo</a>
-                    <a href="#" onmouseover="troca('rict');" onmouseout="ligar();">Rict</a>
-                    <a href="#" onmouseover="troca('janinesimoes');" onmouseout="ligar();">Janine</a>
-                    <!--<a href="#" onmouseover="troca('');" onmouseout="ligar();"></a>-->
-                </div>
-            <div>
-        </div>
-    </article>
+        </article>
 </section>
