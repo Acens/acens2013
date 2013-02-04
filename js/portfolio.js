@@ -14,7 +14,7 @@ function ampliar(number) {
 	$('#ampliacao').fadeIn();
 	$('#ampliacao').transition({ scale: [4,1] },400);
 	$('#ampliacao').transition({ scale: [4,8] },500);
-	$('#ampImag').delay(1000).fadeIn();
+	$('#ampImag').delay(1500).fadeIn(500);
 
 	var texto;
 	switch(number) {
