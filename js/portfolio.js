@@ -10,10 +10,11 @@ img[3].src = "img/portfolio/rict.png";
 
 function ampliar(number) {
 	window.document.getElementById('ampliacao').style.opacity = 1;
-	window.document.getElementById('ampImag').style.opacity = 1;
+
 	$('#ampliacao').fadeIn();
 	$('#ampliacao').transition({ scale: [4,1] },400);
 	$('#ampliacao').transition({ scale: [4,8] },500);
+	$('#divAmpliacao').delay(1500).fadeIn();
 	$('#ampImag').delay(1500).fadeIn(500);
 
 	var texto;
@@ -24,11 +25,15 @@ function ampliar(number) {
 		case 3: texto = "&nbsp; &nbsp; &nbsp; Texto do site Rict"; break;
 		default: break;
 	}
+
+	window.document.getElementById('divAmpliacao').style.opacity = 1;
+	window.document.getElementById('divTexto').style.opacity = 1;
 	window.document.getElementById('ampImag').src = img[number].src;
+	window.document.getElementById('ampImag').style.opacity = 1;
 	window.document.getElementById('texto').innerHTML = texto;
 }
 function fechar() {
-	$('#ampImag').fadeOut(600);
+	$('#divAmpliacao').fadeOut(600);
 	$('#ampliacao').transition({ scale: [0,0] },800);
 	$('#ampliacao').fadeOut();
 }

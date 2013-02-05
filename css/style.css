@@ -313,29 +313,49 @@ header hgroup {
 .img:hover { 
 	opacity: 1;
 }
-#ampliacao { 
-	height: 60px; 
-	width: 300px; 
-	border-radius: 1px; 
-	background-color: black; 
-	margin-top: 210px; 
-	margin-left: 520px; 
-	position: absolute; 
-	z-index: 5; 
+#ampliacao {
+	height: 60px;
+	width: 300px;
+  	background-color: black;
+  	border-bottom-left-radius: 1px;
+  	border-bottom-right-radius: 1px;
+  	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	margin-top: 210px;
+	margin-left: 364px;
+	position: absolute;
+	opacity: 0;
+	z-index: 5;
 }
-#ampImag { 
-	height: 100%; 
-	width: 80%; 
+#divAmpliacao {
+  	height: 450px;
+  	width: 1170px;
+  	position: absolute;
+  	margin-top: 15px;
+  	margin-left: -75px;
+  	opacity: 0;
+  	z-index: 5;
 }
-#divTexto { 
-	background-color: white; 
-	font-size: 25px; 
-	border-radius: 10px; 
-	position: absolute; 
-	margin-top: 50px; 
-	margin-left: 50px; 
-	opacity: 0.6; 
-	z-index: 5; 
+#ampImag {
+  	height: 100%;
+  	width: 80%;
+}
+#divTexto {
+	height: 450px;
+  	width: 235px;
+	background-color: white;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	margin-left: 936px;
+	margin-top: -454px;
+	position: absolute;
+	text-align: justify;
+	z-index: 5;
+}
+#texto {
+  	position: absolute;
+  	font-size: 16px;
+  	padding: 10px;
 }
 #extra .center p {
 	color: #fff;
