@@ -38,6 +38,11 @@ $(document).ready(function() {
 		}
 	});
 
+	/*Tooltips*/
+	$('#naocurso').tipsy({
+		gravity : $.fn.tipsy.autoNS
+	});
+
 	/*Fancybox*/
 	$('.fancybox').fancybox({
 		openEffect : 'fade',

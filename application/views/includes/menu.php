@@ -14,7 +14,14 @@
 	                    <a href="#homeacens"></a>
 	                </li>
 	                <li>
-	                    <a href="#cursos">Cursos</a>
+	                	<?php 
+	                	$temcurso = false;
+	                		if($temcurso == false){
+	                	?>
+	                    <a href="#cursos" id="naocurso" title="Não temos cursos no momento">Cursos</a>
+	                    <?php }else{?>
+	                    <a href="#cursos">Cursos</a>	
+	                    <?php }?>
 	                </li>
 	                <li>
 	                    <a href="#contato">Contato</a>

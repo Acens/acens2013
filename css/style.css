@@ -106,7 +106,7 @@ nav li a:hover, nav li a:active {
 	z-index: 160;
 }
 /*SESSÕES*/
-header, #sobre, #portfolio, #servicos, #cursos, footer {
+header, #sobre, #portfolio, #servicos, #cursos{
 	height: 800px;
 	width: 100%;
 	padding-top: 7%;
@@ -275,7 +275,6 @@ header hgroup {
 	width: 400px;
 	height: 240px;
 	border: 5px solid #FFF;
-	margin-right: 100px;
 	margin-top: -300px;
 	float: right;
 	position: relative;
@@ -401,18 +400,18 @@ header hgroup {
 	text-align: center;
 }
 /*CONTATO*/
+footer{
+	width:100%;
+	padding:5% 2% 2%;
+}
 #contato_local {
 	height: 300px;
 	width: 660px;
-	margin-top: 25px;
 }
 #fieldsetContato {
 	height: 270px;
 	width: 465px;
 	padding-top: 5px;
-	padding-left: 15px;
-	margin-left: 20px;
-	margin-top: 15px;
 }
 .form {
 	font-size: 15px;
@@ -434,8 +433,6 @@ header hgroup {
 	height: 114px;
 	width: 465px;
 	padding-top: 5px;
-	padding-left: 15px;
-	margin-left: 20px;
 	margin-top: 15px;
 }
 legend {
@@ -466,6 +463,14 @@ legend {
 	border-top-right-radius: 5px;
 	position: absolute;
 }
+/*FOOTER*/
+#creditos{
+	padding:10px 0px 0px 20px; 
+	background-color:#222222;
+	color:#F9F9F9;
+	font-size:1em;	
+}
+
 /*CURSOS*/
 #cursos li{
 	list-style: none;
@@ -516,3 +521,30 @@ legend {
 	position:relative;
 	top:1px;
 }
+/*CSS das Tootips do Tipsy*/
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 100000; }
+  .tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #000; }
+  .tipsy-arrow-s { border-top-color: #000; }
+  .tipsy-arrow-e { border-left-color: #000; }
+  .tipsy-arrow-w { border-right-color: #000; }
+  
+	.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
