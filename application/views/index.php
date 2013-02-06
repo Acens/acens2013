@@ -1,5 +1,5 @@
 <?php 
-$temcurso = false; /*Mostrar ou ocultar a página de cursos*/
+$temcurso = true; /*Mostrar ou ocultar a página de cursos*/
 
 $this->load->view('includes/header');
 $this->load->view('includes/menu');

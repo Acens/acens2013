@@ -1,10 +1,8 @@
 <footer id="contato">
 	<article id="contato">
-		<hgroup>
-			<h1>Contato</h1>
-		</hgroup>
 		<div id="contato_local">
 			<div id="fieldsetContato">
+				<h1>Contato</h1>
 				<legend>
 					Entre em contato conosco
 				</legend>
@@ -30,7 +28,6 @@
 		</div>
 	</article>
 	<article id="localizacao">
-	<h1>Localização</h1>	
 		<div id="map"></div>
 	</article>
 	<?php
@@ -41,6 +38,10 @@
 	<p>
 		2013 - Desenvolvido por Acens - Todos os direitos reservados.
 	</p>
+	<ul>
+		<li><img src="<?php echo base_url(); ?>/img/html5logo.png" alt="Usamos HTM5" /></li>
+		<li><img src="<?php echo base_url(); ?>/img/css3logo.png" alt="CSS3" /></li>
+	</ul>
 </div>
 </body>
 </html>
