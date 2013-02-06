@@ -465,22 +465,36 @@ legend {
 }
 /*FOOTER*/
 #creditos {
-    padding: 20px 0px 0px 20px;
     background-color: #232323;
+    border-top: 1px solid #595B59;
     color: #F9F9F9;
     font-size: 1em;
-    height: 80px;
-    border-top:1px solid #595B59;
+    height: 180px;
+    overflow: hidden;
+    padding: 20px 0 0 20px;
 }
 #creditos ul{
     float: right;
-    margin-right:40px;
+    margin-right: 40px;
+    overflow: hidden;
+    position: relative;
+    top: -40px;
 }
 #creditos li{
     float:left;
     display:block;
 }
-
+#logoFooter{
+	position:relative;
+	float:left;
+	top:-10px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+#creditos p{
+    font-size: 16px;
+    overflow: hidden;
+}
 /*CURSOS*/
 #cursos li {
     list-style: none;

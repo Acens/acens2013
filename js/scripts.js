@@ -43,6 +43,10 @@ $(document).ready(function() {
 		gravity : $.fn.tipsy.autoNS
 	});
 
+	$('#html5icon, #css3icon').tipsy({
+		gravity: 'se'
+	});
+
 	/*Fancybox*/
 	$('.fancybox').fancybox({
 		openEffect : 'fade',
@@ -114,5 +118,18 @@ $(document).ready(function() {
 		this.src = this.src.replace("midiassociais", "midiassociaishover");
 	}, function() {
 		this.src = this.src.replace("midiassociaishover", "midiassociais");
+	});
+
+	/*Outros efeitos Hover*/
+	$('#html5icon').hover(function() {
+		this.src = this.src.replace("html5logo", "html5logoHover");
+	}, function() {
+		this.src = this.src.replace("html5logoHover", "html5logo");
+	});
+
+	$('#css3icon').hover(function() {
+		this.src = this.src.replace("css3logo", "css3logoHover");
+	}, function() {
+		this.src = this.src.replace("css3logoHover", "css3logo");
 	});
 });

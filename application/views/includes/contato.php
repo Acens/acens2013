@@ -35,12 +35,13 @@
 	?>
 </footer>
 <div id="creditos" class="center">
-	<p>
-		2013 - Desenvolvido por Acens - Todos os direitos reservados.
-	</p>
+	<img src="<?php echo base_url(); ?>/img/logoacensFooter.png" alt="" id="logoFooter"/>
+	<p>Av Paranjana, 1700 - Campus do Itaperi - UECE - Dep. de Pós-Graduação em Computação - Sala 8</p>
+	<p>Tel: +55 85 8585-6463</p>
+	<p>2013 - Todos os direitos reservados.</p>
 	<ul>
-		<li><img src="<?php echo base_url(); ?>/img/html5logo.png" alt="Usamos HTM5" /></li>
-		<li><img src="<?php echo base_url(); ?>/img/css3logo.png" alt="CSS3" /></li>
+		<li><img src="<?php echo base_url(); ?>/img/html5logo.png" title="Site feito usando HTML5" alt="Usamos HTM5" id="html5icon" /></li>
+		<li><img src="<?php echo base_url(); ?>/img/css3logo.png" title="Site feito usando CSS3" alt="CSS3" id="css3icon"/></li>
 	</ul>
 </div>
 </body>
