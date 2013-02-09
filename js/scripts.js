@@ -8,7 +8,6 @@ $(document).ready(function() {
 	/*MENU*/
 	var windowH = $(window).height();
 	var stickToBot = windowH - $('#menuWrapper').outerHeight(true);
-
 	$('#menuWrapper').css({
 		'top' : stickToBot + 'px'
 	});

@@ -15,12 +15,11 @@
 	                </li>
 	                <li>
 	                	<?php 
-	                	$temcurso = false;
-	                		if($temcurso == false){
+	                		if($curso == "false"){
 	                	?>
-	                    <a href="#cursos" id="naocurso" title="Não temos cursos no momento">Cursos</a>
+	                    	<a href="#cursos" id="naocurso" title="Não temos cursos no momento">Cursos</a>
 	                    <?php }else{?>
-	                    <a href="#cursos">Cursos</a>	
+	                    	<a href="#cursos">Cursos</a>	
 	                    <?php }?>
 	                </li>
 	                <li>
