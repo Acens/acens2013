@@ -4,7 +4,7 @@ $(document).ready(function() {
 		$.scrollTo(this.hash || 0, 500);
 		e.preventDefault();
 	});
-
+	
 	/*MENU*/
 	var windowH = $(window).height();
 	var stickToBot = windowH - $('#menuWrapper').outerHeight(true);

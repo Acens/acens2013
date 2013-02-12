@@ -1,11 +1,10 @@
-<?php
-if (!defined('BASEPATH'))
-	exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 class Principal extends CI_Controller {
 
 	public function index() {
-		$temcurso = array('curso' => 'false');
+		$temcurso = array('curso' => 'true'); //'true' (mostra a pagina cursos) 
+		//'false' (o contrario :P - e mostra o aviso no menu)
 
 		$this -> load -> view('includes/header');
 		$this -> load -> view('includes/menu', $temcurso);

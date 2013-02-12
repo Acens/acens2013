@@ -43,6 +43,9 @@
 		<li><img src="<?php echo base_url(); ?>/img/html5logo.png" title="Site feito usando HTML5" alt="Usamos HTM5" id="html5icon" /></li>
 		<li><img src="<?php echo base_url(); ?>/img/css3logo.png" title="Site feito usando CSS3" alt="CSS3" id="css3icon"/></li>
 	</ul>
+	
+	
+	<a href="#">Reporte um erro</a> | <a href="#">Termos de uso</a>
 </div>
 </body>
 </html>

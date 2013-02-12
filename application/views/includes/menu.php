@@ -11,13 +11,13 @@
 	                    <a href="#servicos">Serviços</a>
 	                </li>
 	                <li id="home">
-	                    <a href="#homeacens"></a>
+	                    <a href="#slides"></a>
 	                </li>
 	                <li>
 	                	<?php 
 	                		if($curso == "false"){
 	                	?>
-	                    	<a href="#cursos" id="naocurso" title="Não temos cursos no momento">Cursos</a>
+	                    	<a id="naocurso" title="Não temos cursos no momento">Cursos</a>
 	                    <?php }else{?>
 	                    	<a href="#cursos">Cursos</a>	
 	                    <?php }?>

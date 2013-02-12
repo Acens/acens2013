@@ -1,0 +1,86 @@
+#slides {
+    position: relative;
+}
+#slides img {
+    overflow: hidden;
+}
+#slides .slides-container {
+    display: none;
+}
+#slides .scrollable {
+    *zoom: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+#slides .scrollable:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.slides-navigation {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+    width: 100%;
+}
+.slides-navigation a {
+    position: absolute;
+    display: block;
+}
+
+.slides-navigation a.next, .slides-navigation a.prev {
+    width: 35px;
+    height:35px;
+    border-radius: 130px;
+    -moz-border-radius: 130px;
+    -webkit-border-radius: 130px;
+    border:3px solid rgba(255,255,255,0.5);;
+    margin:0px 10px 0px;
+    text-decoration: none;
+    font-size: 35px;
+    color:rgba(255,255,255,0.5);;
+}
+.slides-navigation a.next p{
+    left: 10px;
+    position: relative;
+    top: -2px;
+}
+.slides-navigation a.prev p{
+    left: 5px;
+    position: relative;
+    top: -2px;
+}
+.slides-navigation a.next:hover, .slides-navigation a.prev:hover {
+    border-color:rgba(255,255,255,0.3);
+    background-color:rgba(0,0,0,0.3);
+    color:rgba(255,255,255,0.3);
+}
+.slides-navigation a.prev {
+    left: 0;
+}
+.slides-navigation a.next {
+    right: 0;
+}
+
+.slides-pagination {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.slides-pagination a {
+    border: 2px solid #222;
+    border-radius: 15px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+.slides-pagination a.current {
+    background: #222;
+}

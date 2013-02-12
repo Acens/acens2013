@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing:antialiased;
 }
 @font-face {
     font-family: 'amerika_sansregular';
@@ -16,7 +17,8 @@ header, footer, article, section, hgroup, nav, figure {
 body {
     font-size: 1em;
     font-family: Helvetica, Arial;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
 }
 img {
     border: none;
@@ -109,6 +111,8 @@ nav li a:hover, nav li a:active {
 header, #sobre, #portfolio, #servicos, #cursos {
     height: 800px;
     width: 100%;
+}
+#sobre, #portfolio, #servicos, #cursos {
     padding-top: 7%;
 }
 header {
@@ -126,10 +130,10 @@ footer {
     color: #FFF;
 }
 /*HOME*/
-header hgroup {
+.conteudo_home hgroup {
     width: 485px;
     position: absolute;
-    margin-left: 300px;
+    margin-left: 270px;
 }
 .conteudo_home {
     border: 1px solid #0a2e4e;
@@ -137,7 +141,8 @@ header hgroup {
     height: 346px;
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 160px;
+    overflow: hidden;
 }
 .home_text1, .home_text2 {
     font-family: 'amerika_sansregular';
@@ -145,19 +150,17 @@ header hgroup {
 }
 .home_text1 {
     opacity: 0;
-    font-size: 150px;
+    font-size: 160px;
 }
 .home_text2 {
     opacity: 0;
-    font-size: 29px;
-    margin-top: -30px;
+    font-size: 32px;
 }
 .home_text3 {
     opacity: 0;
     font-family: Trebuchet MS;
     font-size: 36px;
     color: #FFF;
-    margin-left: -10px;
     margin-top: 300px;
 }
 .circulologo {
@@ -473,25 +476,25 @@ legend {
     overflow: hidden;
     padding: 20px 0 0 20px;
 }
-#creditos ul{
+#creditos ul {
     float: right;
     margin-right: 40px;
     overflow: hidden;
     position: relative;
     top: -40px;
 }
-#creditos li{
-    float:left;
-    display:block;
+#creditos li {
+    float: left;
+    display: block;
 }
-#logoFooter{
-	position:relative;
-	float:left;
-	top:-10px;
-	overflow: hidden;
-	margin-right: 10px;
+#logoFooter {
+    position: relative;
+    float: left;
+    top: -10px;
+    overflow: hidden;
+    margin-right: 10px;
 }
-#creditos p{
+#creditos p {
     font-size: 16px;
     overflow: hidden;
 }
@@ -519,8 +522,8 @@ legend {
     position: relative;
 }
 .botaojornada {
-    margin:0 auto;
-    position:absolute;
+    margin: 0 auto;
+    position: absolute;
     -moz-box-shadow: inset 0px 1px 0px 0px #dcecfb;
     -webkit-box-shadow: inset 0px 1px 0px 0px #dcecfb;
     box-shadow: inset 0px 1px 0px 0px #dcecfb;
