@@ -409,17 +409,17 @@ footer {
 }
 #contato_local {
     height: 300px;
-    width: 660px;
+    width: 650px;
 }
 #fieldsetContato {
     height: 270px;
-    width: 465px;
+    width: 466px;
     padding-top: 5px;
 }
 .form {
-    font-size: 15px;
+    font-size: 20px;
     width: 385px;
-    height: 40px;
+    height: 35px;
     margin-top: 5px;
     border-radius: 5px;
 }
@@ -429,8 +429,8 @@ footer {
 }
 /*NEWSLETTER*/
 .newsletter {
-    height: 150px;
-    width: 660px;
+    height: 125px;
+    width: 650px;
 }
 #fildsetNewsletter {
     height: 114px;
@@ -448,18 +448,19 @@ legend {
     padding-bottom: 5px;
 }
 #emailNewsletter {
-    font-size: 15px;
+    font-size: 20px;
     width: 385px;
-    height: 40px;
+    height: 35px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 0;
 }
 #enviar {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight:bold;
     width: 60px;
-    height: 44px;
+    height: 40px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 0;
@@ -497,6 +498,13 @@ legend {
 #creditos p {
     font-size: 16px;
     overflow: hidden;
+}
+#report{
+    margin-top: 40px;
+    width: 267px;
+}
+#report button{
+	padding:3px;
 }
 /*CURSOS*/
 #cursos li {

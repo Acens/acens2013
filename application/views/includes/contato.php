@@ -44,8 +44,9 @@
 		<li><img src="<?php echo base_url(); ?>/img/css3logo.png" title="Site feito usando CSS3" alt="CSS3" id="css3icon"/></li>
 	</ul>
 	
-	
-	<a href="#">Reporte um erro</a> | <a href="#">Termos de uso</a>
+	<div id="report" class="centro">
+		<button>Reporte um erro</button> | <button>Termos de uso</button>
+	</div>	
 </div>
 </body>
 </html>

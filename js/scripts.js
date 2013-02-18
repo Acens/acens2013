@@ -4,7 +4,7 @@ $(document).ready(function() {
 		$.scrollTo(this.hash || 0, 500);
 		e.preventDefault();
 	});
-	
+
 	/*MENU*/
 	var windowH = $(window).height();
 	var stickToBot = windowH - $('#menuWrapper').outerHeight(true);
@@ -43,7 +43,7 @@ $(document).ready(function() {
 	});
 
 	$('#html5icon, #css3icon').tipsy({
-		gravity: 'se'
+		gravity : 'se'
 	});
 
 	/*Fancybox*/
