@@ -26,7 +26,7 @@
 	                    <a href="#contato">Contato</a>
 	                </li>
 	                <li>
-	                    <a href="#">Blog</a>
+	                    <a href="http://www.acens.com.br/blog" target="_blank">Blog</a>
 	                </li>
 	            </ul>
 	        </nav>

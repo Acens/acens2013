@@ -36,7 +36,7 @@
         </li>
     </ul>
     <nav class="slides-navigation">
-        <a href="#" class="next"><p>></p></a>
-        <a href="#" class="prev"><p><</p></a>
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
     </nav>
 </header>

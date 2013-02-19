@@ -100,25 +100,6 @@ $(document).ready(function() {
 		});
 	});
 
-	/*EFEITOS HOVER DE SERVIÇOS*/
-	$('#deskservice').hover(function() {
-		this.src = this.src.replace("sistemasdesktop", "sistemasdesktophover");
-	}, function() {
-		this.src = this.src.replace("sistemasdesktophover", "sistemasdesktop");
-	});
-
-	$('#webservice').hover(function() {
-		this.src = this.src.replace("sistemasweb", "sistemaswebhover");
-	}, function() {
-		this.src = this.src.replace("sistemaswebhover", "sistemasweb");
-	});
-
-	$('#midiaservice').hover(function() {
-		this.src = this.src.replace("midiassociais", "midiassociaishover");
-	}, function() {
-		this.src = this.src.replace("midiassociaishover", "midiassociais");
-	});
-
 	/*Outros efeitos Hover*/
 	$('#html5icon').hover(function() {
 		this.src = this.src.replace("html5logo", "html5logoHover");
