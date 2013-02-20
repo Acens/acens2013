@@ -1,6 +1,63 @@
 <section id="sobre">
 	<h1>Sobre a Acens</h1>
-	<div id="imagem_sobre" class="boxborder centro"></div>
+		<div id="ri-grid" class="ri-grid ri-grid-size-2">
+			<ul>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/1.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/2.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/3.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/4.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/5.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/6.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/7.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/8.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/9.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/10.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/11.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/12.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/13.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/14.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/15.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/16.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/17.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/18.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/19.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/20.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/21.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/22.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/23.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/24.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/25.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/26.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/27.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/28.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/29.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/30.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/31.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/32.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/33.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/34.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/35.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/36.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/37.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/38.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/39.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/40.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/41.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/42.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/43.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/44.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/45.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/46.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/47.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/48.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/49.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/50.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/51.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/52.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/53.jpg"/></a></li>
+				<li><a href="#"><img src="<?php echo base_url(); ?>/img/medium/54.jpg"/></a></li>
+		</ul>
+	</div>
 	<article class="texto_sobre">
 		<h3>A Acens</h3>
 		<p>
@@ -13,7 +70,7 @@
 		</p>
 	</article>
 	<h2>O que mais voçê precisa saber:</h2>
-	<div id="saiba_mais" class="centro">
+	<div id="saiba_mais" class="centro clearfix">
 		<ul>
 			<li class="boxborder float_left">
 				<h4>Fazemos parte do MEJ</h4>

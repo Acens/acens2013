@@ -19,7 +19,15 @@ class Principal extends CI_Controller {
 	}
 	
 	public function cadastrar_email(){
-		$this->form_validation->set_rules('email', 'EMAIL', 'trim|required|max_length[70]|valid_email');
+		//$this->form_validation->set_rules('email', 'EMAIL', 'trim|required|max_length[70]|valid_email');
+		
+		//if($this->form_validation->run()==)
+		$data = array(
+			'email' => $this->input->post('email')
+		);
+		
+		$this->cadastro_newsletter->gravar_email($data);
+		$this->index();
 	}
 	
 	public function popup() {

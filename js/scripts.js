@@ -45,7 +45,7 @@ $(document).ready(function() {
 		hashchange : true,
 		scrollable : true
 	});
-	
+
 	/*Tooltips*/
 	$('#naocurso').tipsy({
 		gravity : $.fn.tipsy.autoNS
@@ -121,4 +121,36 @@ $(document).ready(function() {
 	}, function() {
 		this.src = this.src.replace("css3logoHover", "css3logo");
 	});
-});
+	
+	
+	/*Efeito do portfolio*/
+	$(function() {
+
+		$(' #da-thumbs > li ').each(function() {
+			$(this).hoverdir();
+		});
+
+	});
+	
+	/*Efeito do grid de imagem pag sobre*/
+	$(function() {
+
+		$('#ri-grid').gridrotator({
+			rows : 3,
+			columns : 15,
+			animType : 'fadeInOut',
+			animSpeed : 1000,
+			interval : 600,
+			step : 1,
+			w320 : {
+				rows : 3,
+				columns : 4
+			},
+			w240 : {
+				rows : 3,
+				columns : 4
+			}
+		});
+
+	});
+}); 

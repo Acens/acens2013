@@ -1,5 +1,5 @@
 <footer id="contato">
-	<article id="footer_wrap" class="centro">
+	<article id="footer_wrap" class="centro clearfix">
 		<div id="form_contato">
 			<h1>Contato</h1>
 			Entre em contato conosco
@@ -22,23 +22,24 @@
 			echo form_close();
 			?>
 		</div>
-<!--
+		
 		<div id="mapa">
 			<h1>Localização</h1>
-			<iframe width="400" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=+&amp;q=Acens&amp;ie=UTF8&amp;hq=Acens&amp;hnear=Fortaleza+-+Cear%C3%A1&amp;t=m&amp;cid=14690974754196196610&amp;ll=-3.786494,-38.553085&amp;spn=0.021496,0.034332&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+			<iframe class="boxborder" width="400" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=+&amp;q=Acens&amp;ie=UTF8&amp;hq=Acens&amp;hnear=Fortaleza+-+Cear%C3%A1&amp;t=m&amp;cid=14690974754196196610&amp;ll=-3.786494,-38.553085&amp;spn=0.021496,0.034332&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 		</div>
--->
-		<div id="form_newsletter">
+
+	</article>
+	
+			<div id="form_newsletter">
 			<h1>Newsletter</h1>
 			Cadastre seu email e receba novidades em primeira mão.
 			<?php
-			echo form_open('includes/newsletter');
+			echo form_open('principal/cadastrar_email');
 			echo form_input(array('id' => 'newsletter_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@gmail.com|[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@hotmail.com|', 'title' => 'Digite um e-mail válido.'));
 			echo form_submit(array('id' => 'send_buttom', 'name' => 'enviar'), 'Enviar');
 			echo form_close();
 			?>
 		</div>
-	</article>
 </footer>
 
 <div id="creditos" class="center">
