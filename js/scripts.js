@@ -37,6 +37,15 @@ $(document).ready(function() {
 		}
 	});
 
+	/*Superslide*/
+	$('#slides').superslides({
+		slide_easing : 'easeInOutCubic',
+		slide_speed : 800,
+		pagination : true,
+		hashchange : true,
+		scrollable : true
+	});
+	
 	/*Tooltips*/
 	$('#naocurso').tipsy({
 		gravity : $.fn.tipsy.autoNS

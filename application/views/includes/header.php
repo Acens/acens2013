@@ -5,8 +5,6 @@
         <title>Acens - Mentes em desenvolvimento</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/jquery.fancybox.css" />
-		
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/style3.css" />
         <!-- Internet Explorer HTML5 enabling code: -->
         <!--[if IE]>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/html5.js">/**/</script>
@@ -23,12 +21,6 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/scripts.js"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
         
-        <script src="<?php echo base_url(); ?>/js/slide/jquery.easing.1.3.js"></script>
-	    <script src="<?php echo base_url(); ?>/js/slide/jquery.animate-enhanced.min.js"></script>
-	    <script src="<?php echo base_url(); ?>/js/slide/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
-        <script src="<?php echo base_url(); ?>/js/slide/application.js"></script>
-        
-        <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.hoverdir.js"></script>	
 		<script type="text/javascript">
 			$(function() {
 			
