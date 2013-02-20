@@ -15,10 +15,10 @@
 			}
 
 			echo form_open();
-			echo form_input(array('class' => 'form_input', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
-			echo form_input(array('class' => 'form_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@gmail.com|[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@hotmail.com|', 'title' => 'Digite um e-mail válido.'));
+			echo form_input(array('class' => 'form_input placeholder', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
+			echo form_input(array('class' => 'form_input placeholder', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@gmail.com|[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@hotmail.com|', 'title' => 'Digite um e-mail válido.'));
 			echo form_textarea(array('class' => 'form_mensagem', 'name' => 'mensagem', 'cols' => '48', 'rows' => '6', 'placeholder' => 'Digite sua mensagem', ));
-			echo form_submit(array('id' => 'formsubmit_buttom', ), 'Enviar');
+			echo form_submit(array('id' => 'formsubmit_buttom', 'class' => 'placeholder', ), 'Enviar');
 			echo form_close();
 			?>
 		</div>
