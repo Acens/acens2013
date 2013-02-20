@@ -2,69 +2,69 @@
 	<h1>Portfólio</h1>
 	<ul id="da-thumbs" class="da-thumbs">
 		<li>
-			<a href="http://dribbble.com/shots/505046-Menu"> <img src="<?php echo base_url(); ?>/img/images/1.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/consortee.png" />
 			<div>
-				<span>Menu by Simon Jensen</span>
+				<span>Consorte</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/504336-TN-Aquarium"> <img src="<?php echo base_url(); ?>/img/images/2.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/harmony.png" />
 			<div>
-				<span>TN Aquarium by Charlie Gann</span>
+				<span>Harmony Medical Center</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/504197-Mr-Crabs"> <img src="<?php echo base_url(); ?>/img/images/3.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/rict.png" />
 			<div>
-				<span>Mr. Crabs by John Generalov</span>
+				<span>Rict - Rede integrada de consultoria e treinamento</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/503731-Gallery-of-Mo-2-Mo-logo"> <img src="<?php echo base_url(); ?>/img/images/4.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/janine-simoes.png" />
 			<div>
-				<span>Gallery of Mo 2.Mo logo by Adam Campion</span>
+				<span>Janine Simões - Salão de beleza</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/503058-Ice-Cream-nom-nom"> <img src="<?php echo base_url(); ?>/img/images/5.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/plastec.png" />
 			<div>
-				<span>Ice Cream - nom nom by Eight Hour Day</span>
+				<span>Plastec</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/502927-My-Muse"> <img src="<?php echo base_url(); ?>/img/images/6.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/ecej2011.png" />
 			<div>
-				<span>My Muse by Zachary Horst</span>
+				<span>Ecej 2011</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning"> <img src="<?php echo base_url(); ?>/img/images/7.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/consorte-sistema.png" />
 			<div>
-				<span>Natalie & Justin Cleaning by Justin Younger</span>
+				<span>Sistema Consorte</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/502523-App-Preview"> <img src="<?php echo base_url(); ?>/img/images/8.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/fejece2013.png" />
 			<div>
-				<span>App Preview by Ryan Deshler</span>
+				<span>Fejece 2013</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/501695-Cornwall-Map"> <img src="<?php echo base_url(); ?>/img/images/9.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/uecevest.png" />
 			<div>
-				<span>Cornwall Map by Katharina Maria Zimmermann</span>
+				<span>Sistema UeceVest</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/500861-final-AD-logo"> <img src="<?php echo base_url(); ?>/img/images/10.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/nptec.png" />
 			<div>
-				<span>final AD logo by Annette Diana</span>
+				<span>Nptec</span>
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/500369-Land-Those-Planes"> <img src="<?php echo base_url(); ?>/img/images/11.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/acens.png" />
 			<div>
-				<span>Land Those Planes by Lee Ann Marcel</span>
+				<span>Acens 2012</span>
 			</div> </a>
 		</li>
 		<li>
