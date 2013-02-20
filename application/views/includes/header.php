@@ -8,6 +8,16 @@
         <!-- Internet Explorer HTML5 enabling code: -->
         <!--[if IE]>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/html5.js">/**/</script>
+        <script>
+         $('.placeholder[placeholder]').each(function(){
+		        var ph = $(this).attr('placeholder')
+		        $(this).val(ph).focus(function(){
+		        if($(this).val() == ph) $(this).val('')
+		        }).blur(function(){
+		        if(!$(this).val()) $(this).val(ph)
+	        })
+        }) 		        	
+        </script>
         
         <style type="text/css">  
         .clear {
