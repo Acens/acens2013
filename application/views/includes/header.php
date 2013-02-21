@@ -8,6 +8,17 @@
         <!-- Internet Explorer HTML5 enabling code: -->
         <!--[if IE]>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/html5.js">/**/</script>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/fallback.css" />
+        <script>
+         $('.placeholder[placeholder]').each(function(){
+		        var ph = $(this).attr('placeholder')
+		        $(this).val(ph).focus(function(){
+		        if($(this).val() == ph) $(this).val('')
+		        }).blur(function(){
+		        if(!$(this).val()) $(this).val(ph)
+	        })
+        }) 		        	
+        </script>
         
         <style type="text/css">  
         .clear {
@@ -19,16 +30,8 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/plugins.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/scripts.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.gridrotator.js"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        
-		<script type="text/javascript">
-			$(function() {
-			
-				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
-
-			});
-		</script>
-        
     </head>
     
     <!-- begin olark code Codigo do Chat-->
