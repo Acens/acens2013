@@ -1,8 +1,7 @@
 <section id="servicos">
 	<hgroup>
 		<h1>Serviços</h1>
-		<h2>O que você precisa...</h2>
-		<h2>...nós temos</h2>
+		<h2>Conheça nossos serviços</h2>
 	</hgroup>
 	<ul class="ca-menu largurabase centro">
 		<li>

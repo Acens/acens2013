@@ -1,6 +1,6 @@
 <section id="portfolio">
 	<h1>Portfólio</h1>
-	<ul id="da-thumbs" class="da-thumbs">
+	<ul id="da-thumbs" class="da-thumbs clearfix">
 		<li>
 			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/consortee.png" />
 			<div>

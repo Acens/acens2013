@@ -2,15 +2,15 @@
 	        <nav>
 	            <ul class="centro">
 	                <li>
-	                    <a href="#sobre">Sobre</a>
+	                    <a href="#sobre" class="scroll">Sobre</a>
 	                </li>
 	                <li>
-	                    <a href="#portfolio">Portfólio</a>
+	                    <a href="#portfolio" class="scroll">Portfólio</a>
 	                </li>
 	                <li>
-	                    <a href="#servicos">Serviços</a>
+	                    <a href="#servicos" class="scroll">Serviços</a>
 	                </li>
-	                <li id="home">
+	                <li id="home" class="scroll">
 	                    <a href="#slides"></a>
 	                </li>
 	                <li>
@@ -19,11 +19,11 @@
 	                	?>
 	                    	<a id="naocurso" title="Não temos cursos no momento">Cursos</a>
 	                    <?php }else{?>
-	                    	<a href="#cursos">Cursos</a>	
+	                    	<a href="#cursos" class="scroll">Cursos</a>	
 	                    <?php }?>
 	                </li>
 	                <li>
-	                    <a href="#contato">Contato</a>
+	                    <a href="#contato" class="scroll">Contato</a>
 	                </li>
 	                <li>
 	                    <a href="http://www.acens.com.br/blog" target="_blank">Blog</a>

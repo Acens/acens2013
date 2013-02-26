@@ -1,11 +1,8 @@
 <footer id="contato">
-	<hgroup></hgroup>
-	<div id="contato_local" class="centro">
-		<div id="fieldsetContato">
-			<legend>
-				Entre em contato conosco
-			</legend>
-
+	<div id="contato_container" class="clearfix">
+		<article id="contatoform">
+			<h1>Contato</h1>
+			Entre em contato conosco
 			<?php
 			$values = array(
 							'id' => 'image_captcha',
@@ -19,33 +16,40 @@
 			$captcha = create_captcha($values);
 
 			echo form_open('index.php/formulario');
-			echo form_input(array('class' => 'form', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
-			echo form_input(array('class' => 'form', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
-			echo form_textarea(array('class' => 'form', 'id' => 'mensagem', 'name' => 'mensagem', 'cols' => '48', 'rows' => '6', 'placeholder' => 'Digite sua mensagem', ));
+			echo form_input(array('class' => 'forminput', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
+			echo form_input(array('class' => 'forminput', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
+			echo form_textarea(array('class' => 'formtextarea', 'id' => 'mensagem', 'name' => 'mensagem', 'cols' => '48', 'rows' => '6', 'placeholder' => 'Digite sua mensagem', ));
+			echo "<br /><div id='captcha_image'>";
 			echo $captcha['image'];
-			echo form_input(array('id' => 'captcha_field', 'class' => 'form', 'name' => 'captcha', 'placeholder' => 'Digite os números ao lado.', 'required' => '', 'title' => 'Digite os números que aparecem na imagem ao lado.'));
+			echo "</div>";
+			echo form_input(array('id' => 'captcha_field', 'class' => 'forminputcaptcha', 'name' => 'captcha', 'placeholder' => 'Digite os números ao lado.', 'required' => '', 'title' => 'Digite os números que aparecem na imagem ao lado.'));
 			//echo form_hidden('code',$captcha['word']);
 			echo form_hidden('code', 1);	// debug mode
 			echo validation_errors();
 			echo form_submit(array('id' => 'formsubmit_buttom'), 'Enviar');
 			echo form_close();
 			?>
-		</div>
-		<article id="localizacao">
-			<legend>
-				Nossa localização:
-			</legend>
+		</article>
+		
+		<article id="localizacao" class="clearfix">
+			<h1>Localização</h1>
 			<div id="map"></div>
 		</article>
-		<?php
-			include "newsletter.php";
-		?>
-		<div id="social">
-			<img src="<?php base_url() ?>img/face.png" />
-			<img src="<?php base_url() ?>img/twitter.png" />
-			<img src="<?php base_url() ?>img/youtube.png" />
-		</div>
+		
 	</div>
+	
+		<div id="newsletterform">
+			<legend>
+				Cadastre seu email e receba novidades em primeira mão.
+			</legend>
+			<?php
+			echo form_open('includes/newsletter');
+			echo form_input(array('class' => 'forminput', 'id' => 'newsletter_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
+		
+			echo form_submit(array('id' => 'send_buttom', 'name' => 'enviar'), 'Enviar');
+			echo form_close();
+			?>
+		</div>
 </footer>
 
 <div id="creditos" class="center">
