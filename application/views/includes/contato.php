@@ -1,41 +1,51 @@
 <footer id="contato">
-	<article id="footer_wrap" class="centro clearfix">
-		<div id="form_contato">
+	<div id="contato_container" class="clearfix">
+		<article id="contatoform">
 			<h1>Contato</h1>
 			Entre em contato conosco
 			<?php
-			function checar_email($string) {
-				if (stristr($string, '@gmail.com') != FALSE)
-					return TRUE;
-				if (stristr($string, '@hotmail.com') != FALSE)
-					return TRUE;
+			$values = array(
+							'id' => 'image_captcha',
+							'word' => random_string('numeric', 6),
+							'img_path' => '././captcha/',
+							'img_url' => base_url() . 'captcha/',
+							'font_path' => '././fontes/captcha.ttf',
+							'expiration' => '100'
+							);
 
-				$this -> form_validation -> set_message(email, 'Digite um e-mail válido!');
-				return false;
-			}
+			$captcha = create_captcha($values);
 
-			echo form_open();
-			echo form_input(array('class' => 'form_input placeholder', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
-			echo form_input(array('class' => 'form_input placeholder', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@gmail.com|[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@hotmail.com|', 'title' => 'Digite um e-mail válido.'));
-			echo form_textarea(array('class' => 'form_mensagem', 'name' => 'mensagem', 'cols' => '48', 'rows' => '6', 'placeholder' => 'Digite sua mensagem', ));
-			echo form_submit(array('id' => 'formsubmit_buttom', 'class' => 'placeholder', ), 'Enviar');
+			echo form_open('index.php/formulario');
+			echo form_input(array('class' => 'forminput', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
+			echo form_input(array('class' => 'forminput', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
+			echo form_textarea(array('class' => 'formtextarea', 'id' => 'mensagem', 'name' => 'mensagem', 'cols' => '48', 'rows' => '6', 'placeholder' => 'Digite sua mensagem', ));
+			echo "<br /><div id='captcha_image'>";
+			echo $captcha['image'];
+			echo "</div>";
+			echo form_input(array('id' => 'captcha_field', 'class' => 'forminputcaptcha', 'name' => 'captcha', 'placeholder' => 'Digite os números ao lado.', 'required' => '', 'title' => 'Digite os números que aparecem na imagem ao lado.'));
+			//echo form_hidden('code',$captcha['word']);
+			echo form_hidden('code', 1);	// debug mode
+			echo validation_errors();
+			echo form_submit(array('id' => 'formsubmit_buttom'), 'Enviar');
 			echo form_close();
 			?>
-		</div>
+		</article>
 		
-		<div id="mapa">
+		<article id="localizacao" class="clearfix">
 			<h1>Localização</h1>
-			<iframe class="boxborder" width="400" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=+&amp;q=Acens&amp;ie=UTF8&amp;hq=Acens&amp;hnear=Fortaleza+-+Cear%C3%A1&amp;t=m&amp;cid=14690974754196196610&amp;ll=-3.786494,-38.553085&amp;spn=0.021496,0.034332&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-		</div>
-
-	</article>
+			<div id="map"></div>
+		</article>
+		
+	</div>
 	
-			<div id="form_newsletter">
-			<h1>Newsletter</h1>
-			Cadastre seu email e receba novidades em primeira mão.
+		<div id="newsletterform">
+			<legend>
+				Cadastre seu email e receba novidades em primeira mão.
+			</legend>
 			<?php
-			echo form_open('principal/cadastrar_email');
-			echo form_input(array('id' => 'newsletter_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@gmail.com|[a-z|A-Z]{3,}(.[a-z|A-Z]+)?@hotmail.com|', 'title' => 'Digite um e-mail válido.'));
+			echo form_open('includes/newsletter');
+			echo form_input(array('class' => 'forminput', 'id' => 'newsletter_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
+		
 			echo form_submit(array('id' => 'send_buttom', 'name' => 'enviar'), 'Enviar');
 			echo form_close();
 			?>

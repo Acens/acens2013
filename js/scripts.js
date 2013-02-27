@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	/*SCROLL DA PÁGINA*/
-	$('nav a').click(function(e) {
+	$('.scroll').click(function(e) {
 		$.scrollTo(this.hash || 0, 500);
 		e.preventDefault();
 	});
@@ -46,6 +46,18 @@ $(document).ready(function() {
 		scrollable : true
 	});
 
+	/*Hack para o placeholder do IE*/
+	$('input[placeholder], textarea[placeholder]').each(function() {
+		var ph = $(this).attr('placeholder')
+		$(this).val(ph).focus(function() {
+			if ($(this).val() == ph)
+				$(this).val('')
+		}).blur(function() {
+			if (!$(this).val())
+				$(this).val(ph)
+		})
+	})
+	
 	/*Tooltips*/
 	$('#naocurso').tipsy({
 		gravity : $.fn.tipsy.autoNS
@@ -140,7 +152,7 @@ $(document).ready(function() {
 			columns : 15,
 			animType : 'fadeInOut',
 			animSpeed : 1000,
-			interval : 600,
+			interval : 900,
 			step : 1,
 			w320 : {
 				rows : 3,
