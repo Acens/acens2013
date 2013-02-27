@@ -68,9 +68,9 @@
 			</div> </a>
 		</li>
 		<li>
-			<a href="http://dribbble.com/shots/497795-Seahorse"> <img src="<?php echo base_url(); ?>/img/images/12.jpg" />
+			<a href="#"> <img src="<?php echo base_url(); ?>/img/images/ecos.png" />
 			<div>
-				<span>Seahorse by Trevor Basset</span>
+				<span>Ecos</span>
 			</div> </a>
 		</li>
 	</ul>
