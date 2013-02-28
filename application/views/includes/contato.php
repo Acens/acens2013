@@ -1,4 +1,4 @@
-<footer id="contato">
+﻿<footer id="contato">
 	<hgroup></hgroup>
 	<div id="contato_local" class="centro">
 		<div id="fieldsetContato">
@@ -18,14 +18,14 @@
 
 			$captcha = create_captcha($values);
 
-			echo form_open('index.php/formulario');
+			echo form_open('index.php/formulario#contato');
 			echo form_input(array('class' => 'form', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
 			echo form_input(array('class' => 'form', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
 			echo form_textarea(array('class' => 'form', 'id' => 'mensagem', 'name' => 'mensagem', 'cols' => '48', 'rows' => '6', 'placeholder' => 'Digite sua mensagem', ));
 			echo $captcha['image'];
 			echo form_input(array('id' => 'captcha_field', 'class' => 'form', 'name' => 'captcha', 'placeholder' => 'Digite os números ao lado.', 'required' => '', 'title' => 'Digite os números que aparecem na imagem ao lado.'));
-			//echo form_hidden('code',$captcha['word']);
-			echo form_hidden('code', 1);	// debug mode
+			echo form_hidden('code',$captcha['word']);
+			//echo form_hidden('code', 1);	// debug mode
 			echo validation_errors();
 			echo form_submit(array('id' => 'formsubmit_buttom'), 'Enviar');
 			echo form_close();
