@@ -25,7 +25,6 @@
 			echo $captcha['image'];
 			echo form_input(array('id' => 'captcha_field', 'class' => 'form', 'name' => 'captcha', 'placeholder' => 'Digite os números ao lado.', 'required' => '', 'title' => 'Digite os números que aparecem na imagem ao lado.'));
 			echo form_hidden('code',$captcha['word']);
-			//echo form_hidden('code', 1);	// debug mode
 			echo validation_errors();
 			echo form_submit(array('id' => 'formsubmit_buttom'), 'Enviar');
 			echo form_close();
