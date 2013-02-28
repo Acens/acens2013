@@ -1,4 +1,4 @@
-﻿<footer id="contato">
+<footer id="contato">
 	<hgroup></hgroup>
 	<div id="contato_local" class="centro">
 		<div id="fieldsetContato">
@@ -17,7 +17,7 @@
 							);
 
 			$captcha = create_captcha($values);
-
+			
 			echo form_open('index.php/formulario#contato');
 			echo form_input(array('class' => 'form', 'name' => 'nome', 'placeholder' => 'Nome', 'required' => '', 'pattern' => '.{3,10}', 'title' => 'Mínimo de 3 caracteres e máximo de 10'));
 			echo form_input(array('class' => 'form', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
@@ -29,22 +29,27 @@
 			echo form_submit(array('id' => 'formsubmit_buttom'), 'Enviar');
 			echo form_close();
 			?>
-		</div>
-		<article id="localizacao">
-			<legend>
-				Nossa localização:
-			</legend>
+		</article>
+		
+		<article id="localizacao" class="clearfix">
+			<h1>Localização</h1>
 			<div id="map"></div>
 		</article>
-		<?php
-			include "newsletter.php";
-		?>
-		<div id="social">
-			<img src="<?php base_url() ?>img/face.png" />
-			<img src="<?php base_url() ?>img/twitter.png" />
-			<img src="<?php base_url() ?>img/youtube.png" />
-		</div>
+		
 	</div>
+	
+		<div id="newsletterform">
+			<legend>
+				Cadastre seu email e receba novidades em primeira mão.
+			</legend>
+			<?php
+			echo form_open('includes/newsletter');
+			echo form_input(array('class' => 'forminput', 'id' => 'newsletter_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
+		
+			echo form_submit(array('id' => 'send_buttom', 'name' => 'enviar'), 'Enviar');
+			echo form_close();
+			?>
+		</div>
 </footer>
 
 <div id="creditos" class="center">

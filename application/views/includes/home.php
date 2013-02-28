@@ -1,6 +1,6 @@
 <header id="slides">
     <ul class="slides-container">
-        <li>
+        <li id="homepage_logo">
             <div class="container">
                 <div class="conteudo_home">
                     <div class="circulologo" data-percent="100">
