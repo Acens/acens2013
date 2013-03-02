@@ -35,6 +35,9 @@
             </div>
         </li>
     </ul>
+    
+    <!--<a href="#" id="playpause" class="pause"></a>-->
+        
     <nav class="slides-navigation">
         <a href="#" class="next"></a>
         <a href="#" class="prev"></a>

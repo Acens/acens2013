@@ -42,8 +42,19 @@ $(document).ready(function() {
 		slide_easing : 'easeInOutCubic',
 		slide_speed : 800,
 		pagination : true,
-		hashchange : true,
-		scrollable : true
+		scrollable : false,
+	});
+	
+	$('#playpause').hover(function(){
+		$('#slides').superslides('stop');
+		$(this).removeAttr('class', 'pause');
+		$(this).attr('class', 'play');
+		$('#slides').updated.slides();
+	}, function(){
+		$('#slides').superslides('play');
+		$(this).removeAttr('class', 'play');
+		$(this).attr('class', 'pause');
+		$('#slides').updated.slides();	
 	});
 
 	/*Hack para o placeholder do IE*/

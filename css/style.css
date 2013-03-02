@@ -790,7 +790,21 @@ to {
 .slides-navigation a.next {
 	right: 0;
 }
-
+#playpause{
+	position:relative;
+	display:block;
+	top:0;
+	right:0;
+	z-index:3;
+	width:40px;
+	height:40px;
+}
+.pause{
+	background-image: url('../img/pause.png');
+}
+.play{
+	background-image: url('../img/play.png');
+}
 .slides-pagination {
 	position: absolute;
 	z-index: 3;

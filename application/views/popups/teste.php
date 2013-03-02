@@ -1,1 +1,0 @@
-<h1>Este curso não está disponível no momento</h1><p>Em breve disponibilizaremos novos cursos</p>
