@@ -305,15 +305,18 @@ nav li a:hover, nav li a:active {
 }
 #saiba_mais li {
 	color: #FFF;
-	margin-right: 10px;
+	height: 265px;
 	margin-bottom: 0px;
 	list-style: none;
-	width: 314px;
+	width: 325px;
 	background-color: rgba(0,0,0,0.8);
 	padding: 10px 3px 5px;
 }
 #saiba_mais ul > :last-child {
-	margin-right: none;
+	margin-left: 10px;
+}
+#saiba_mais ul > :first-child {
+	margin-right: 10px;
 }
 #saiba_mais li h4 {
 	text-align: center;
@@ -327,6 +330,7 @@ nav li a:hover, nav li a:active {
 #saiba_mais li p {
 	margin: 5px;
 	text-align: justify;
+	font-size: 17px;
 }
 a.button {
 	background-image: -moz-linear-gradient(top, #ffffff, #dbdbdb);
@@ -375,7 +379,7 @@ a.button.icon {
 }
 a.button.icon span {
 	padding-left: 36px;
-	background: url('../img/seta-mais.png') no-repeat 0 -4px;
+	background: url('../img/seta-mais.png') no-repeat 0 0px;
 }
 /*****************************************************************
  * CSS do portfolio
@@ -535,18 +539,23 @@ a.button.icon span {
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
 	-ms-transition: all 300ms linear;
+	position: relative;
 	transition: all 300ms linear;
+}
+.embreve_novo {
+	width: 71px;
+	height: 72px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .ca-menu li:last-child {
 	margin-right: 0px;
 }
 .ca-menu li a {
 	text-align: left;
-	width: 100%;
-	height: 100%;
 	display: block;
 	color: #333;
-	position: relative;
 }
 .transicao {
 	-webkit-transition: all 200ms linear;
@@ -654,11 +663,6 @@ to {
 	-ms-transform: translateY(0%);
 }
 }
-.embreve {
-	background-image: url('../img/embreve-faixa.png');
-	background-position: 0 0;
-}
-
 /*****************************************************************
  * CURSOS
  *
@@ -739,8 +743,8 @@ to {
 .forminput, .formtextarea, .forminputcaptcha, .forminputnewsletter {
 	font-family: Helvetica, Arial;
 }
-.forminput, .formtextarea, .forminputcaptcha{
-	border-radius: 5px;	
+.forminput, .formtextarea, .forminputcaptcha {
+	border-radius: 5px;
 }
 .forminput, .forminputnewsletter {
 	width: 400px;
@@ -757,13 +761,13 @@ to {
 }
 .forminputcaptcha {
 	height: 25px;
-	width:245px;
-	position:relative;
+	width: 245px;
+	position: relative;
 	top: -10px;
 	left: 5px;
 }
 .forminputnewsletter {
-	display: inline;	
+	display: inline;
 }
 #localizacao {
 	float: right;
@@ -803,7 +807,7 @@ to {
 #formsubmit_buttom {
 	width: 130px;
 }
-#send_buttom{
+#send_buttom {
 	width: 70px;
 }
 /*****************************************************************
@@ -1180,4 +1184,154 @@ to {
 	border-left: none;
 	border-top-color: transparent;
 	border-bottom-color: transparent;
+}
+
+/*****************************************************************
+ * CSS do COLORBOX
+ *****************************************************************/
+#colorbox, #cboxOverlay, #cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: hidden;
+}
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+#cboxMiddleLeft, #cboxBottomLeft {
+	clear: left;
+}
+#cboxContent {
+	position: relative;
+}
+#cboxLoadedContent {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+#cboxTitle {
+	margin: 0;
+}
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+	cursor: pointer;
+}
+.cboxPhoto {
+	float: left;
+	margin: auto;
+	border: 0;
+	display: block;
+	max-width: none;
+}
+.cboxIframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+}
+#colorbox, #cboxContent, #cboxLoadedContent {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+#cboxOverlay {
+	background: #000;
+}
+#colorbox {
+	outline: 0;
+}
+#cboxContent {
+	margin-top: 20px;
+	background: #000;
+}
+.cboxIframe {
+	background: #fff;
+}
+#cboxError {
+	padding: 50px;
+	border: 1px solid #ccc;
+}
+#cboxLoadedContent {
+	border: 5px solid #000;
+	background: #fff;
+}
+#cboxTitle {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	color: #ccc;
+}
+#cboxCurrent {
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	color: #ccc;
+}
+#cboxLoadingGraphic {
+	background: url('../img/colorbox/loading.gif') no-repeat center center;
+}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	width: auto;
+	background: none;
+}
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
+	outline: 0;
+}
+
+#cboxSlideshow {
+	position: absolute;
+	top: -20px;
+	right: 90px;
+	color: #fff;
+}
+#cboxPrevious {
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	margin-top: -32px;
+	background: url('../img/colorbox/controls.png') no-repeat top left;
+	width: 28px;
+	height: 65px;
+	text-indent: -9999px;
+}
+#cboxPrevious:hover {
+	background-position: bottom left;
+}
+#cboxNext {
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	margin-top: -32px;
+	background: url('../img/colorbox/controls.png') no-repeat top right;
+	width: 28px;
+	height: 65px;
+	text-indent: -9999px;
+}
+#cboxNext:hover {
+	background-position: bottom right;
+}
+#cboxClose {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: block;
+	background: url('../img/colorbox/controls.png') no-repeat top center;
+	width: 38px;
+	height: 19px;
+	text-indent: -9999px;
+}
+#cboxClose:hover {
+	background-position: bottom center;
 }

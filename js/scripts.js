@@ -67,7 +67,12 @@ $(document).ready(function() {
 			if (!$(this).val())
 				$(this).val(ph)
 		})
-	})
+	});
+	
+	
+	/*Colorbox*/
+	$(".inline").colorbox({inline:true, transition:"fade", width:"85%", height:"85%"});
+	$(".portfolioimg").colorbox({rel:'portfolioimg', transition:"fade"});
 	
 	/*Tooltips*/
 	$('#naocurso').tipsy({
