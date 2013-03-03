@@ -45,8 +45,8 @@ section h1 {
 #sobre h1, #servicos h1 {
 	color: #111;
 }
-header h1, #portfolio h1, #cursos h1{
-	text-align: center;	
+header h1, #portfolio h1, #cursos h1 {
+	text-align: center;
 }
 header h1, #portfolio h1, #cursos h1, footer h1 {
 	color: #fff;
@@ -54,7 +54,7 @@ header h1, #portfolio h1, #cursos h1, footer h1 {
 }
 #servicos h2 {
 	text-align: center;
-	color:#939593;
+	color: #939593;
 }
 /*****************************************************************
  * CLASSES GENERICAS
@@ -90,6 +90,18 @@ header h1, #portfolio h1, #cursos h1, footer h1 {
 .float_left {
 	float: left;
 }
+.verde {
+	color: rgb(0, 165, 80);
+	font-weight: bold;
+}
+.azul {
+	color: rgb(0, 132, 228);
+	font-weight: bold;
+}
+.amarelo {
+	color: rgb(255, 238, 81);
+	font-weight: bold;
+}
 /*****************************************************************
  * SESSÕES
  *
@@ -99,9 +111,11 @@ header h1, #portfolio h1, #cursos h1, footer h1 {
 }
 #sobre, #portfolio, #servicos, #cursos {
 	min-height: 760px;
-	padding-bottom:40px;
-	width: 100%;	
+	width: 100%;
 	padding-top: 100px;
+}
+#portfolio, #servicos, #cursos {
+	padding-bottom: 40px;
 }
 #sobre, #servicos {
 	background-color: #FFF;
@@ -120,7 +134,8 @@ footer {
 	background-color: #1D1D1D;
 	color: #FFF;
 	width: 100%;
-	padding-top:90px;
+	padding-top: 65px;
+	padding-bottom: 10px;
 }
 /*****************************************************************
  * MENU DE NAVEGAÇÃO
@@ -185,7 +200,7 @@ nav li a:hover, nav li a:active {
  * HOME
  *
  *****************************************************************/
-#homepage_logo{
+#homepage_logo {
 	background-color: #0a2e4e;
 	background-image: url('../img/BG/square_bg.png');
 	background-position: 0 0;
@@ -282,25 +297,85 @@ nav li a:hover, nav li a:active {
 }
 #saiba_mais {
 	width: 1024px;
+	position: relative;
+	bottom: 0;
 }
 #saiba_mais {
 	margin-top: 20px;
 }
 #saiba_mais li {
+	color: #FFF;
 	margin-right: 10px;
-	margin-bottom:30px;
+	margin-bottom: 0px;
 	list-style: none;
 	width: 314px;
-	height: 230px;
-	background-color: #FFF;
+	background-color: rgba(0,0,0,0.8);
 	padding: 10px 3px 5px;
 }
 #saiba_mais ul > :last-child {
 	margin-right: none;
 }
 #saiba_mais li h4 {
-	font-size: 18px;
+	text-align: center;
+	font-size: 20px;
 	font-weight: bold;
+	padding: 5px 0px 10px;
+}
+#saiba_mais li hr {
+	border-bottom: 1px solid #0A0A0A;
+}
+#saiba_mais li p {
+	margin: 5px;
+	text-align: justify;
+}
+a.button {
+	background-image: -moz-linear-gradient(top, #ffffff, #dbdbdb);
+	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #ffffff),color-stop(1, #dbdbdb));
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorStr='#ffffff', EndColorStr='#dbdbdb');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorStr='#ffffff', EndColorStr='#dbdbdb')";
+	border: 1px solid #fff;
+	-moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: #fff 0 1px 0;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	display: block;
+	color: #4A4A4A;
+	line-height: 24px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 140px;
+	position: relative;
+	margin: 10px 0px 10px 70px;
+}
+a.button:hover {
+	background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #ffffff),color-stop(1, #eeeeee));
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorStr='#ffffff', EndColorStr='#eeeeee');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorStr='#ffffff', EndColorStr='#eeeeee')";
+	color: #000;
+	display: block;
+}
+a.button:active {
+	background-image: -moz-linear-gradient(top, #dbdbdb, #ffffff);
+	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #dbdbdb),color-stop(1, #ffffff));
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorStr='#dbdbdb', EndColorStr='#ffffff');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorStr='#dbdbdb', EndColorStr='#ffffff')";
+	text-shadow: 0px -1px 0 rgba(255, 255, 255, 0.5);
+}
+a.button {
+	border: 1px solid #979797;
+}
+a.button.icon {
+	padding-left: 11px;
+}
+a.button.icon span {
+	padding-left: 36px;
+	background: url('../img/seta-mais.png') no-repeat 0 -4px;
 }
 /*****************************************************************
  * CSS do portfolio
@@ -643,52 +718,93 @@ to {
  * CONTATO
  *
  *****************************************************************/
-#contatoform{
-	float:left;
-	display:block;
-	padding-left:2%;
+#contatowrap {
+	width: 100%;
 }
-#contatoform input{
-	display:block;
+#contatoform {
+	float: left;
+	display: block;
+	padding-left: 2%;
+	width: 410px;
 }
-#contatoform #captcha_field, #captcha_image{
-	display:inline;
+.forminput, .formtextarea {
+	display: block;
 }
-#captcha_image{
-	margin-top:5px;
+#contatoform #captcha_field, #captcha_image {
+	display: inline;
+}
+#captcha_image {
+	margin-top: 5px;
+}
+.forminput, .formtextarea, .forminputcaptcha, .forminputnewsletter {
+	font-family: Helvetica, Arial;
 }
 .forminput, .formtextarea, .forminputcaptcha{
-	font-family: Helvetica, Arial;
-	border-radius: 5px;
+	border-radius: 5px;	
 }
-.forminput{
-	width:400px;
-	height:35px;
+.forminput, .forminputnewsletter {
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	margin-top: 5px;
+}
+.formtextarea {
+	width: 400px;
+	height: 135px;
 	font-size: 20px;
-	margin-top:5px;	
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-.formtextarea{
-	width:400px;
-	font-size: 20px;
-	margin-top:5px;
-	margin-bottom:5px;	
+.forminputcaptcha {
+	height: 25px;
+	width:245px;
+	position:relative;
+	top: -10px;
+	left: 5px;
 }
-.forminputcaptcha{
-	height:20px;
+.forminputnewsletter {
+	display: inline;	
 }
-#localizacao{
-	float:right;
-	display:block;
-	margin-right:40px;
+#localizacao {
+	float: right;
+	display: block;
+	margin-right: 25px;
 }
-#map{
-	width: 450px;
-	height: 330px;
+#map {
+	width: 495px;
+	height: 240px;
 	border: 5px solid #333;
 	margin-top: 5px;
 }
-#newsletterform{
-	margin-top:15px;
+#newsletterform {
+	padding-left: 2%;
+}
+.enviar {
+	background-image: -moz-linear-gradient(top, #ffffff, #dbdbdb);
+	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #ffffff),color-stop(1, #dbdbdb));
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorStr='#ffffff', EndColorStr='#dbdbdb');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorStr='#ffffff', EndColorStr='#dbdbdb')";
+	border: 1px solid #fff;
+	-moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: #fff 0 1px 0;
+	float: left;
+	display: block;
+	color: #4A4A4A;
+	line-height: 18px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	margin: 0px 0px 10px;
+}
+#formsubmit_buttom {
+	width: 130px;
+}
+#send_buttom{
+	width: 70px;
 }
 /*****************************************************************
  * FOOTER
@@ -790,19 +906,19 @@ to {
 .slides-navigation a.next {
 	right: 0;
 }
-#playpause{
-	position:relative;
-	display:block;
-	top:0;
-	right:0;
-	z-index:3;
-	width:40px;
-	height:40px;
+#playpause {
+	position: relative;
+	display: block;
+	top: 0;
+	right: 0;
+	z-index: 3;
+	width: 40px;
+	height: 40px;
 }
-.pause{
+.pause {
 	background-image: url('../img/pause.png');
 }
-.play{
+.play {
 	background-image: url('../img/play.png');
 }
 .slides-pagination {
@@ -827,7 +943,7 @@ to {
  * CSS do slide de fotos da página sobre
  *
  *****************************************************************/
-.ri-grid{
+.ri-grid {
 	margin: 30px auto 30px;
 	position: relative;
 	height: auto;
@@ -843,26 +959,25 @@ to {
 
 /* Clear floats by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
-.ri-grid ul:before,
-.ri-grid ul:after{
+.ri-grid ul:before, .ri-grid ul:after {
 	content: '';
-    display: table;
+	display: table;
 }
 
 .ri-grid ul:after {
-    clear: both;
+	clear: both;
 }
 
 .ri-grid ul {
-    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-} 
+	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
 
 .ri-grid ul li {
 	-webkit-perspective: 400px;
 	-moz-perspective: 400px;
 	-o-perspective: 400px;
 	-ms-perspective: 400px;
-	perspective: 400px;	
+	perspective: 400px;
 	margin: 0;
 	padding: 0;
 	float: left;
@@ -872,7 +987,7 @@ to {
 	background: #000;
 }
 
-.ri-grid ul li a{
+.ri-grid ul li a {
 	display: block;
 	outline: none;
 	position: absolute;
@@ -902,20 +1017,19 @@ to {
 }
 
 /* Grid wrapper sizes */
-.ri-grid-size-1{
+.ri-grid-size-1 {
 	width: 55%;
 }
-.ri-grid-size-2{
+.ri-grid-size-2 {
 	width: 100%;
 }
-.ri-grid-size-3{
+.ri-grid-size-3 {
 	width: 100%;
 	margin-top: 0px;
 }
 
 /* Shadow style */
-.ri-shadow:after,
-.ri-shadow:before{
+.ri-shadow:after, .ri-shadow:before {
 	content: "";
 	position: absolute;
 	z-index: -2;
@@ -932,7 +1046,7 @@ to {
 	-o-transform: rotate(-3deg);
 	transform: rotate(-3deg);
 }
-.ri-shadow:after{
+.ri-shadow:after {
 	right: 10px;
 	left: auto;
 	-webkit-transform: rotate(3deg);
@@ -942,16 +1056,15 @@ to {
 	transform: rotate(3deg);
 }
 
-.ri-grid-loading:after,
-.ri-grid-loading:before{
+.ri-grid-loading:after, .ri-grid-loading:before {
 	display: none;
 }
 
-.ri-loading-image{
+.ri-loading-image {
 	display: none;
 }
 
-.ri-grid-loading .ri-loading-image{
+.ri-grid-loading .ri-loading-image {
 	position: relative;
 	width: 30px;
 	height: 30px;

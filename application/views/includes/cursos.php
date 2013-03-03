@@ -2,42 +2,42 @@
 	<h1>Nossos cursos</h1>
 	<ul class="largurabase centro">
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html" class="fancybox fancybox.iframe">
+			<a href="<?php echo base_url(); ?>teste.html">
 				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
 				</a>
 		</li>
