@@ -663,6 +663,14 @@ to {
 	-ms-transform: translateY(0%);
 }
 }
+.popup_conteudo{
+	background-color: #FFF;
+	background-image: url('../img/BG/brillant.png');
+	background-position: 0 0;
+	background-repeat: repeat repeat;
+	padding:10px;	
+	display:block;
+}
 /*****************************************************************
  * CURSOS
  *
