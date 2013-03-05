@@ -128,7 +128,7 @@ $(document).ready(function() {
 	/*Mapa google*/
 	$('#map').gmap().bind('init', function(ev, map) {
 		$('#map').gmap('addMarker', {
-			'position' : '57.7973333,12.0502107',
+			'position' : '-3.786526,-38.553051',
 			'bounds' : true
 		}).click(function() {
 			$('#map').gmap('openInfoWindow', {

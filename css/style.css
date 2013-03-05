@@ -668,8 +668,9 @@ to {
 	background-image: url('../img/BG/brillant.png');
 	background-position: 0 0;
 	background-repeat: repeat repeat;
-	padding:10px;	
-	display:block;
+	padding:10px;
+	width:inherit;
+	height:inherit;
 }
 /*****************************************************************
  * CURSOS
@@ -1216,7 +1217,7 @@ to {
 	position: relative;
 }
 #cboxLoadedContent {
-	overflow: auto;
+	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 }
 #cboxTitle {
@@ -1333,7 +1334,7 @@ to {
 #cboxClose {
 	position: absolute;
 	top: 5px;
-	right: 5px;
+	right: 20px;
 	display: block;
 	background: url('../img/colorbox/controls.png') no-repeat top center;
 	width: 38px;
