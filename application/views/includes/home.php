@@ -25,18 +25,15 @@
         <li>
             <img src="<?php echo base_url(); ?>/img/slide/banner.png" width="1024" height="682" alt="Surly">
             <div class="container">
-                <h1>Slide 2</h1>
             </div>
         </li>
         <li>
             <img src="<?php echo base_url(); ?>/img/slide/banner2.png" width="1024" height="683" alt="Cinelli">
             <div class="container">
-                <h1>Slide 3</h1>
             </div>
         </li>
     </ul>
-    
-    <!--<a href="#" id="playpause" class="pause"></a>-->
+
         
     <nav class="slides-navigation">
         <a href="#" class="next"></a>
