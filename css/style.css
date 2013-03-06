@@ -275,6 +275,10 @@ nav li a:hover, nav li a:active {
  * SOBRE
  *
  *****************************************************************/
+.img_instagram { 
+	width: 6.65%; 
+	height: 6.65%; 
+}
 #imagem_sobre {
 	margin: 0 auto;
 	width: 1024px;
@@ -760,6 +764,7 @@ to {
 	height: 30px;
 	font-size: 18px;
 	margin-top: 5px;
+	border-radius: 5px;
 }
 .formtextarea {
 	width: 400px;
@@ -767,6 +772,7 @@ to {
 	font-size: 20px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	resize: none;
 }
 .forminputcaptcha {
 	height: 25px;
@@ -791,6 +797,8 @@ to {
 }
 #newsletterform {
 	padding-left: 2%;
+	margin-top: 10px;
+	width: 405px;
 }
 .enviar {
 	background-image: -moz-linear-gradient(top, #ffffff, #dbdbdb);
@@ -811,13 +819,12 @@ to {
 	font-size: 16px;
 	font-weight: bold;
 	position: relative;
+	width: 130px;
 	margin: 0px 0px 10px;
 }
-#formsubmit_buttom {
-	width: 130px;
-}
 #send_buttom {
-	width: 70px;
+	float: left;
+    margin-top: 10px;
 }
 /*****************************************************************
  * FOOTER

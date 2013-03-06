@@ -1,16 +1,31 @@
 <section id="sobre">
 	<h1>Sobre a Acens</h1>
-	<div id="ri-grid" class="ri-grid ri-grid-size-2">
+	<div>
 		<ul>
 			<?php
-				 $arquivos = directory_map('./img/medium', 1);
-				 $caminho = base_url() . "img/medium";
-				 
-				 foreach($arquivos as $img){
-			?>
-			<li><a href="#"><img src="<?php echo $caminho . "/" . $img; ?>"/></a></li>
-			<?php
-			}
+				$limite = 30; //Limite de fotos do instagram
+				$cont = 0;
+
+				function API_instagram($url) {
+					global $limite, $cont;
+					$array_instagram = file_get_contents($url);
+					if($array_instagram) {
+						$dados = json_decode($array_instagram, true);
+						foreach ($dados['data'] as $data) {
+							if($cont++ >= 30)
+								return;
+							$url_link = $data['link'];
+							$url_image = $data['images']['thumbnail']['url'];
+							echo "<a href='$url_link' target='_blank'><img class='img_instagram' src='$url_image'/></a>";
+						}
+						if($dados['pagination'])
+							API_instagram($dados['pagination']['next_url']);
+					}
+				}
+
+
+				$link = "https://api.instagram.com/v1/users/319761938/media/recent/?access_token=274595891.f59def8.7c42a76b630046a59ee1252279929271";
+				API_instagram($link);
 			?>
 		</ul>
 	</div>
