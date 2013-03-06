@@ -22,8 +22,20 @@ class Formulario extends CI_Controller {
 			
 			$this->load->view('obrigado');
 		} else {
-			$this->load->view('index');
-		}
+			$temcurso = array('curso' => 'true'); //'true' (mostra a pagina cursos) 
+			//'false' (o contrario :P - e mostra o aviso no menu)
+
+			$this -> load -> view('includes/header');
+			$this -> load -> view('includes/menu', $temcurso);
+			$this -> load -> view('includes/home');
+			$this -> load -> view('includes/sobre');
+			$this -> load -> view('includes/portfolio');
+			$this -> load -> view('includes/servicos');
+			if ($temcurso['curso'] == "true") {
+				$this -> load -> view('includes/cursos');
+			}
+			$this -> load -> view('includes/contato');
+			}
 	}
 
 }
