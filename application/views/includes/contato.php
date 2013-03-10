@@ -1,4 +1,5 @@
 <footer id="contato">
+	
 	<div id="contatowrap" class="clearfix">
 		<article id="contatoform">
 		<h1>Contato</h1>
@@ -32,7 +33,6 @@
 			<h1>Localização</h1>
 			<div id="map"></div>
 		</article>
-		
 	</div>
 	
 	<div id="newsletterform" class="clearfix">
@@ -45,6 +45,12 @@
 		echo form_close();
 		?>
 	</div>
+
+	<div id="face_twitter" class="clearfix">
+		<div class="fb-like-box" data-href="http://www.facebook.com/pages/Acens-Empresa-J%C3%BAnior/187676691323618?ref=ts&amp;fref=ts" data-width="292" data-height="170" data-show-faces="true" data-colorscheme="dark" data-stream="false" data-border-color="#1D1D1D" data-header="false"></div>
+		<div id="twitter"><a href="https://twitter.com/acensjr" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large">Seguir @acensjr</a><div>
+	</div>
+
 </footer>
 <div id="creditos" class="center">
 	<img src="<?php echo base_url(); ?>/img/logoacensFooter.png" alt="" id="logoFooter"/>

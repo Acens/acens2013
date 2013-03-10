@@ -826,6 +826,17 @@ to {
 	float: left;
     margin-top: 10px;
 }
+#face_twitter {
+	float: right;
+	height: 215px;
+	margin-right: 40px;
+	margin-top: -220px;
+	width: 500px;
+}
+#twitter {
+	margin-top: 10px;
+	margin-left: 10px;
+}
 /*****************************************************************
  * FOOTER
  *

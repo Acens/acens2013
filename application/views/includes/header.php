@@ -46,4 +46,30 @@
 		/* custom configuration goes here (www.olark.com/documentation) */
 		olark.identify('1065-898-10-9705');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1065-898-10-9705/contact" title="Contact us" target="_blank">Questions? Feedback?</a> </noscript>
 		<!-- end olark code -->
+        
+        <!-- Facebook code -->
+        <script>
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- End Facebook code -->
+        
+        <!-- Twitter code -->
+        <script>
+            !function(d,s,id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);}
+            }(document,"script","twitter-wjs");
+        </script>
+        <!-- End Twitter code -->
     <body>
