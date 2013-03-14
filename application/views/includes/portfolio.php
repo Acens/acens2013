@@ -2,7 +2,7 @@
 	<h1>Portfólio</h1>
 	<ul id="da-thumbs" class="da-thumbs clearfix">
 		<li>
-			<a class="portfolioimg"  href=""
+			<a class="portfolioimg"  href="">
 				<img src="<?php echo base_url(); ?>/img/portfolio/consortee.png" />
 			<div>
 				<span>Consorte</span>
