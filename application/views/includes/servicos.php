@@ -37,7 +37,7 @@
     </ul>
 </section>
 
-<!-- This contains the hidden content for inline calls -->
+<!-- Conteudo de popups -->
 <div style='display:none'>
     <div id='conteudo_sistemasd' class="popup_conteudo">
     	<img src="<?php echo base_url(); ?>/img/servicos/img.png" alt="" />
@@ -45,21 +45,21 @@
     </div>
 </div>
 
-<!-- This contains the hidden content for inline calls -->
+<!-- Conteudo de popups -->
 <div style='display:none'>
     <div id='conteudo_web' class="popup_conteudo">
 
     </div>
 </div>
 
-<!-- This contains the hidden content for inline calls -->
+<!-- Conteudo de popups -->
 <div style='display:none'>
     <div id='conteudo_mobile' class="popup_conteudo">
 
     </div>
 </div>
 
-<!-- This contains the hidden content for inline calls -->
+<!-- Conteudo de popups -->
 <div style='display:none'>
     <div id='conteudo_sociais' class="popup_conteudo">
 
