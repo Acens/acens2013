@@ -23,8 +23,9 @@
             </div>
         </li>
         <li>
-            <img src="<?php echo base_url(); ?>/img/slide/banner.png" width="1024" height="682" alt="Surly">
+            <img src="<?php echo base_url(); ?>/img/slide/NovoSite.png" width="1500" height="1000" alt="Novo Site no Ar.">
             <div class="container">
+            	<a href="#pesquisa_novosite" class="inline botao botaopesquisa">Responda a pesquisa</a>
             </div>
         </li>
         <li>
@@ -40,3 +41,9 @@
         <a href="#" class="prev"></a>
     </nav>
 </header>
+
+<div style='display:none'>
+    <div id='pesquisa_novosite' class="popup_conteudo">
+
+    </div>
+</div>

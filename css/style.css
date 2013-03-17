@@ -102,6 +102,36 @@ header h1, #portfolio h1, #cursos h1, footer h1 {
 	color: rgb(255, 238, 81);
 	font-weight: bold;
 }
+.botaopesquisa {
+  left:60%;
+  right:18%;
+  top:53%;
+  width:20%;
+}
+.botao {
+	position: absolute;
+	-moz-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+	box-shadow: inset 0px 1px 0px 0px #dcecfb;
+	background-color: #bddbfa;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #84bbf3;
+	display: inline-block;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 1%;
+	text-decoration: none;
+	text-align:center;
+	text-shadow: 1px 1px 0px #528ecc;
+}
+.botao:hover {
+	background-color: #80b5ea;
+}
+
 /*****************************************************************
  * SESSÕES
  *
@@ -216,7 +246,7 @@ nav li a:hover, nav li a:active {
 	height: 346px;
 	display: block;
 	margin: 0 auto;
-	margin-top: 160px;
+	margin-top: 12%;
 	overflow: hidden;
 }
 .home_text1, .home_text2 {
@@ -275,9 +305,9 @@ nav li a:hover, nav li a:active {
  * SOBRE
  *
  *****************************************************************/
-.img_instagram { 
-	width: 6.65%; 
-	height: 6.65%; 
+.img_instagram {
+	width: 6.65%;
+	height: 6.65%;
 }
 #imagem_sobre {
 	margin: 0 auto;
@@ -667,14 +697,14 @@ to {
 	-ms-transform: translateY(0%);
 }
 }
-.popup_conteudo{
+.popup_conteudo {
 	background-color: #FFF;
 	background-image: url('../img/BG/brillant.png');
 	background-position: 0 0;
 	background-repeat: repeat repeat;
-	padding:10px;
-	width:inherit;
-	height:inherit;
+	padding: 10px;
+	width: inherit;
+	height: inherit;
 }
 /*****************************************************************
  * CURSOS
@@ -701,35 +731,6 @@ to {
 }
 #cursos li img {
 	position: relative;
-}
-.botaojornada {
-	margin: 0 auto;
-	position: absolute;
-	-moz-box-shadow: inset 0px 1px 0px 0px #dcecfb;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #dcecfb;
-	box-shadow: inset 0px 1px 0px 0px #dcecfb;
-	background-color: #bddbfa;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	border: 1px solid #84bbf3;
-	display: inline-block;
-	color: #ffffff;
-	font-family: arial;
-	font-size: 25px;
-	font-weight: bold;
-	margin-top: 15px;
-	padding: 15px;
-	text-decoration: none;
-	text-shadow: 1px 1px 0px #528ecc;
-	width: 410px;
-}
-.botaojornada:hover {
-	background-color: #80b5ea;
-}
-.botaojornada:active {
-	position: relative;
-	top: 1px;
 }
 /*****************************************************************
  * CONTATO
@@ -824,7 +825,7 @@ to {
 }
 #send_buttom {
 	float: left;
-    margin-top: 10px;
+	margin-top: 10px;
 }
 #face_twitter {
 	float: right;

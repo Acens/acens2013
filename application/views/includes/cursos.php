@@ -46,7 +46,7 @@
 	$jornada = false;
 	if ($jornada == true):
 	?>
-	<a href="<?php echo base_url(); ?>teste.html" class="botaojornada centro fancybox fancybox.iframe">Inscreva-se na Jornada de cursos</a>
+	<a href="<?php echo base_url(); ?>teste.html" class="botaojornada centro">Inscreva-se na Jornada de cursos</a>
 	<?php
 	endif;
 	?>
