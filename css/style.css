@@ -232,9 +232,6 @@ nav li a:hover, nav li a:active {
  *****************************************************************/
 #homepage_logo {
 	background-color: #0a2e4e;
-	background-image: url('../img/BG/square_bg.png');
-	background-position: 0 0;
-	background-repeat: repeat repeat;
 }
 .conteudo_home hgroup {
 	width: 485px;

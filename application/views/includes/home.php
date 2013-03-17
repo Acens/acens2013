@@ -23,16 +23,16 @@
             </div>
         </li>
         <li>
-            <img src="<?php echo base_url(); ?>/img/slide/NovoSite.png" width="1500" height="1000" alt="Novo Site no Ar.">
+            <img src="<?php echo base_url(); ?>/img/slide/NovoSite.png" alt="Novo Site no Ar.">
             <div class="container">
             	<a href="#pesquisa_novosite" class="inline botao botaopesquisa">Responda a pesquisa</a>
             </div>
         </li>
         <li>
-            <img src="<?php echo base_url(); ?>/img/slide/banner2.png" width="1024" height="683" alt="Cinelli">
+            <a href="http://www.connectce.com.br" target="_blank"><img src="<?php echo base_url(); ?>/img/slide/connectce.png" alt="Connect Ce"></a>
             <div class="container">
             </div>
-        </li>
+        </li>      
     </ul>
 
         
