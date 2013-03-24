@@ -1,0 +1,38 @@
+            body {
+                background-color: #004275;
+                background-image: url('../img/BG/bkg-pat.png');
+                background-position: 0 0;
+                background-repeat: repeat repeat;
+            }
+            #corpo{
+                padding:20px;
+                background-color:#FFFFFF;
+                width:900px;
+                margin:0 auto;
+                margin-top:15px;
+                border-radius: 10px;
+                color:#0A0A0A;
+            }
+            img{
+                position:relative;
+                margin:0 auto;
+                width:843px;
+                height:321px;
+                border:4px solid #222222;
+                margin-left:25px;
+            }
+            h1{
+                text-align:center;
+            }
+            a{
+                display:block;
+                padding:10px;
+                color:#C2D6E6;
+                background-color:#002166;
+                text-align:center;
+                text-decoration:none;
+                font-size: 20px;
+            }
+            a:hover{
+                color:#005382;
+            }
