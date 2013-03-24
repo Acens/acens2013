@@ -123,19 +123,7 @@ $(document).ready(function() {
 	$('.home_text3').delay(2800).animate({
 		'margin-left' : 20,
 		'opacity' : 1
-	}, 800);
-
-	/*Mapa google*/
-	$('#map').gmap().bind('init', function(ev, map) {
-		$('#map').gmap('addMarker', {
-			'position' : '-3.786526,-38.553051',
-			'bounds' : true
-		}).click(function() {
-			$('#map').gmap('openInfoWindow', {
-				'content' : 'Acens'
-			}, this);
-		});
-	});	
+	}, 800);	
 	
 	/*Efeito do portfolio*/
 	$(function() {

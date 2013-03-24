@@ -1,3 +1,4 @@
+<?php ob_start() ?>
 <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -33,11 +34,11 @@ class Contact extends CI_Controller {
 
 			if ($this->email->send())
 			{
-				$this->load->view('obrigado');
+				$this->load->view('mensagens/obrigado');
 			}
 			else
 			{
-				$this->load->view('erro');
+				$this->load->view('mensagens/erro');
 			}
 		}
 		else

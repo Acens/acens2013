@@ -1,3 +1,4 @@
+<?php ob_start() ?>
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 class Newsletter extends CI_Controller {
@@ -19,7 +20,7 @@ class Newsletter extends CI_Controller {
 	
 		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
 		{
-			$this->load->view('includes/contato');
+			$this->load->view('mensagens/erro_newsletter');
 		}
 		else 
 		{
@@ -28,20 +29,16 @@ class Newsletter extends CI_Controller {
 					       	'email' => set_value('email')
 						);
 		
-			if ($this->newsletter_model->SaveForm($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			if ($this->newsletter_model->SaveForm($form_data) == TRUE) 
 			{
-				redirect('index.php/newsletter/success');   // or whatever logic needs to occur
+				$this->load->view('mensagens/sucesso_newsletter');   // or whatever logic needs to occur
 			}
 			else
 			{
-			echo 'Ocorreu um erro ao salvar suas informações. Por favor, tente novamente mais tarde.';
+			$this->load->view('mensagens/erro_newsletter');
 
 			}
 		}
-	}
-	function success()
-	{
-			echo 'E-mail adicionado com sucesso!';
 	}
 }
 ?>
