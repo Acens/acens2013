@@ -3,9 +3,9 @@
 	<div id="contatowrap" class="clearfix">
 		<article id="contatoform">
 		<h1><?php echo lang('contato_titulo');?></h1>
-	<?php $this->lang->load('contact'); ?>
-		<?php echo lang('contatosub_titulo');?>
-	<?php echo form_open('index.php/contact', array('name' => 'form_contact', 'id' => 'form_contact', 'class' => '', 'onsubmit' => 'document.getElementById(\'submit\').disabled=true;'));?>
+	<?php $this->lang->load('contact');
+	echo lang('contatosub_titulo');
+	echo form_open('index.php/contact', array('name' => 'form_contact', 'id' => 'form_contact', 'class' => '', 'onsubmit' => 'document.getElementById(\'submit\').disabled=true;'));?>
 
 	<input type="text" name="subject" value="<?php echo set_value('subject');?>" placeholder="<?php echo lang('subject_label');?>" id="subject" class="forminput" tabindex="1" autofocus>
 	<?php echo form_error('subject');?>
@@ -13,19 +13,17 @@
 	<textarea type="textarea" name="message" placeholder="<?php echo lang('message_label');?>" cols="40" rows="10" id="message" class="formtextarea" tabindex="2"><?php echo set_value('message');?></textarea>
 	<?php echo form_error('message');?>
 
-	<input type="text" name="name" required="" placeholder="<?php echo lang('name_label');?>" value="<?php echo set_value('name');?>" id="name" class="forminput" tabindex="3">
+	<input type="text" name="name" placeholder="<?php echo lang('name_label');?>" value="<?php echo set_value('name');?>" id="name" class="forminput" tabindex="3">
 	<?php echo form_error('name');?>
 
 	
 	<input type="email" name="email" value="<?php echo set_value('email');?>" placeholder="<?php echo lang('email_label');?>" id="email" class="forminput" tabindex="4">
-	<?php echo form_error('email');?>
-
-	<input type="email" name="email_confirm" value="" id="email_confirm" class="" style="position:absolute;left:-9999px;" tabindex="-1">
-	
+	<?php echo form_error('email');?>	
 	<br />
-	<input type="submit" name="submit" value="<?php echo lang('submit_button');?>" id="submit" class="enviar" tabindex="5" />
-
-</form>
+	<?php
+     echo form_submit(array('id' => 'submit', 'class' => 'enviar', 'name' => 'submit'), lang('submit_button'));
+	 echo form_close();
+	?>
 		</article>
 		
 		<article id="localizacao" class="clearfix">

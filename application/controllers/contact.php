@@ -12,10 +12,6 @@ class Contact extends CI_Controller {
 		
 		$this->lang->load('contact');
 
-		$this->load->helper(array('url'));
-
-		substr(CI_VERSION, 0, 1) == '3' ? $this->load->driver('session') : $this->load->library('session');
-
 		$this->load->library('form_validation');
 		$this->form_validation->set_error_delimiters($this->config->item('start_delimiter', 'contact'), $this->config->item('end_delimiter', 'contact'));
 	}
@@ -26,7 +22,6 @@ class Contact extends CI_Controller {
 		$this->form_validation->set_rules('message', lang('message_label'), 'required|trim|xss_clean');
 		$this->form_validation->set_rules('name', lang('name_label'), 'required|trim|xss_clean');
 		$this->form_validation->set_rules('email', lang('email_label'), 'required|valid_email|trim|xss_clean');
-		$this->form_validation->set_rules('email_confirm', '', 'max_length[0]'); // honeypot must be empty
 
 		if ($this->form_validation->run())
 		{
@@ -38,20 +33,16 @@ class Contact extends CI_Controller {
 
 			if ($this->email->send())
 			{
-				$this->session->set_flashdata('msg', lang('success_message'));
+				$this->load->view('obrigado');
 			}
 			else
 			{
-				$this->session->set_flashdata('msg', lang('error_message'));
+				$this->load->view('erro');
 			}
-
-			redirect('index.php/principal');
 		}
 		else
 		{
-			$this->data['msg'] = $this->session->flashdata('msg');
 
-			$this->load->view('includes/contato', $this->data);
 		}
 	}
 }
