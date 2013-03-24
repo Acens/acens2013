@@ -23,7 +23,6 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>/js/plugins.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>/js/scripts.js"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     </head>
     
     <!-- begin olark code Codigo do Chat-->

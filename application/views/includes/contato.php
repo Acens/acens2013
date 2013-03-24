@@ -39,9 +39,12 @@
 		<h1>Newsletter</h1>
 		Cadastre seu email e receba novidades em primeira mão.
 		<?php
-		echo form_open('includes/newsletter');
-		echo form_input(array('class' => 'forminputnewsletter', 'id' => 'newsletter_input', 'type' => 'email', 'name' => 'email', 'placeholder' => 'E-mail', 'required' => '', 'pattern' => '\b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b', 'title' => 'Digite um e-mail válido.'));
-		echo form_submit(array('id' => 'send_buttom', 'class' => 'enviar', 'name' => 'enviar'), 'Enviar');
+		$attributes = array('class' => '', 'id' => '');
+		echo form_open('index.php/newsletter', $attributes);
+		echo form_error('e_mail');?>
+		<input id="email" class="forminputnewsletter" type="email" name="email" maxlength="60" placeholder="Digite seu e-mail" value="<?php echo set_value('email'); ?>"/>
+		<?php
+     	echo form_submit(array('id' => 'send_buttom', 'class' => 'enviar', 'name' => 'enviar'), 'Enviar');
 		echo form_close();
 		?>
 	</div>
@@ -53,20 +56,14 @@
 
 </footer>
 <div id="creditos" class="center">
-	<img src="<?php echo base_url(); ?>/img/logoacensFooter.png" alt="" id="logoFooter"/>
-	<p>
-		Av Paranjana, 1700 - Campus do Itaperi - UECE - Dep. de Pós-Graduação em Computação - Sala 8
-	</p>
-	<p>
-		Tel: +55 85 8585-6463
-	</p>
-	<p>
-		2013 - Todos os direitos reservados.
-	</p>
-	<ul>
-		<li><img src="<?php echo base_url(); ?>/img/html5logo.png" title="Site feito usando HTML5" alt="Usamos HTM5" id="html5icon" />
+	<div id="logoFooter"></div>
+	<p>Av Paranjana, 1700 - Campus do Itaperi - UECE - Dep. de Pós-Graduação em Computação - Sala 8</p>
+	<p>Tel: +55 85 8585-6463</p>
+	<p>2013 - Todos os direitos reservados.</p>
+	<ul id="tecnologias">
+		<li><a class="html5logo" title="Site feito usando HTML5"/>
 		</li>
-		<li><img src="<?php echo base_url(); ?>/img/css3logo.png" title="Site feito usando CSS3" alt="CSS3" id="css3icon"/>
+		<li><a class="css3logo" title="Site feito usando CSS3"/>
 		</li>
 	</ul>
 </div>

@@ -5,30 +5,30 @@
     </hgroup>
     <ul class="ca-menu largurabase centro">
         <li>
-            <a class='inline' href="#conteudo_sistemasd"> <span class="ca-icon"><img src="<?php echo base_url(); ?>/img/sistemasdesktop.png" alt="" /></span>
+            <a class='inline' href="#conteudo_sistemasd"> <span class="ca-icon"><div class="sistemasdesktop"></div></span>
             <div class="ca-content">
                 <h2 class="ca-main">Sistemas Desktop</h2>
                 <h3 class="ca-sub">Nossos sistemas facilitando seus negócios.</h3>
             </div> </a>
         </li>
         <li>
-            <a class='inline' href="#conteudo_web"> <span class="ca-icon transicao"><img src="<?php echo base_url(); ?>/img/sistemasweb.png" alt="" /></span>
+            <a class='inline' href="#conteudo_web"> <span class="ca-icon transicao"><div class="sistemasweb"></div></span>
             <div class="ca-content">
                 <h2 class="ca-main transicao">Sites, Sistemas Web e e-Commerce</h2>
                 <h3 class="ca-sub transicao">Seu site feito com as melhores ferramentas.</h3>
             </div> </a>
         </li>
         <li>
-            <img src="<?php echo base_url(); ?>/img/novo.png" alt="Novidade" class="embreve_novo"/>
-            <a class='inline' href="#conteudo_mobile"> <span class="ca-icon"><img src="<?php echo base_url(); ?>/img/dispmoveis.png" alt=""/></span>
+            <div class="embreve_novo"></div>
+            <a class='inline' href="#conteudo_mobile"> <span class="ca-icon"><div class="dispmoveis"></div></span>
             <div class="ca-content">
                 <h2 class="ca-main">Aplicativos para Dispositivos Móveis</h2>
                 <h3 class="ca-sub">Em breve!</h3>
             </div> </a>
         </li>
         <li>
-            <img src="<?php echo base_url(); ?>/img/novo.png" alt="Novidade" class="embreve_novo"/>
-            <a class='inline' href="#conteudo_sociais"> <span class="ca-icon"><img src="<?php echo base_url(); ?>/img/midiassociais.png" alt=""/></span>
+            <div class="embreve_novo"></div>
+            <a class='inline' href="#conteudo_sociais"> <span class="ca-icon"><div class="midiassociais"></div></span>
             <div class="ca-content">
                 <h2 class="ca-main">Gerência de Mídias Digitais</h2>
                 <h3 class="ca-sub">Suas mídias sociais e sua marca no topo.</h3>
@@ -48,7 +48,13 @@
 <!-- Conteudo de popups -->
 <div style='display:none'>
     <div id='conteudo_web' class="popup_conteudo">
-
+	<p>Desenvolvemos sites e sistemas web com designs elegantes, de fácil acesso ao conteúdo e que 
+		despertam o interesse do usuário. Usando o que há de mais moderno em tecnologia no mercado, 
+		oferecemos um serviço de qualidade, rápido, atendendo às suas necessidades, tudo para garantir a sua satisfação. 
+		<p>Dentre as nossas tecnologias usadas para o desenvolvimento temos HTML, CSS, PHP, CodeIgniter, 
+		Javascript, JQuery, WordPress, Flash, dentre outras.</p>
+		<p>Uma novidade em nossos serviços é o desenvolvimento de sites de venda, o famoso E-Commerce, com o que você pode 
+		diversificar a venda de seus produtos para os mais variados públicos, vendendo pela web, com segurança e praticidade.</p>	
     </div>
 </div>
 

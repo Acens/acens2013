@@ -106,7 +106,7 @@ $autoload['language'] = array();
  |
  */
 
-$autoload['model'] = array('cadastro_newsletter');
+$autoload['model'] = array('newsletter_model');
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */

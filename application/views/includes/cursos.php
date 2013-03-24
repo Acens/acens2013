@@ -2,44 +2,28 @@
 	<h1>Nossos cursos</h1>
 	<ul class="largurabase centro">
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 		<li class="circular">
-			<a href="<?php echo base_url(); ?>teste.html">
-				<img src="<?php echo base_url(); ?>/img/cursonaodisponivel.png" alt="" />
-				</a>
+			<a><div class="cursonaodisponivel"></div></a>
 		</li>
 	</ul>
 	<?php

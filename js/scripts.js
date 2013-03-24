@@ -135,21 +135,7 @@ $(document).ready(function() {
 				'content' : 'Acens'
 			}, this);
 		});
-	});
-
-	/*Outros efeitos Hover*/
-	$('#html5icon').hover(function() {
-		this.src = this.src.replace("html5logo", "html5logoHover");
-	}, function() {
-		this.src = this.src.replace("html5logoHover", "html5logo");
-	});
-
-	$('#css3icon').hover(function() {
-		this.src = this.src.replace("css3logo", "css3logoHover");
-	}, function() {
-		this.src = this.src.replace("css3logoHover", "css3logo");
-	});
-	
+	});	
 	
 	/*Efeito do portfolio*/
 	$(function() {
