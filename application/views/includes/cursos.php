@@ -1,5 +1,5 @@
 <section id="cursos">
-	<h1>Nossos cursos</h1>
+	<h1><?php echo lang('cursos_titulo');?></h1>
 	<ul class="largurabase centro">
 		<li class="circular">
 			<a><div class="cursonaodisponivel"></div></a>

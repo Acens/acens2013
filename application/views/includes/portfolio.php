@@ -1,5 +1,5 @@
 <section id="portfolio">
-	<h1>Portfólio</h1>
+	<h1><?php echo lang('portfolio_titulo');?></h1>
 	<ul id="da-thumbs" class="da-thumbs clearfix">
 		<li>
 			<a>

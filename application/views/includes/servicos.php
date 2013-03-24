@@ -1,7 +1,7 @@
 <section id="servicos">
     <hgroup>
-        <h1>Serviços</h1>
-        <h2>Conheça nossos serviços</h2>
+        <h1><?php echo lang('servicos_titulo');?></h1>
+        <h2><?php echo lang('servicossub_titulo');?></h2>
     </hgroup>
     <ul class="ca-menu largurabase centro">
         <li>

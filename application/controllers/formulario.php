@@ -10,15 +10,18 @@ class Formulario extends CI_Controller {
 		
 		if ($code == $captcha) {
 			$this->load->library('email');
-
-			$this->email->from('nightwalkerk@gmail.com', 'Joao Dantas');
-			$this->email->to('nightwalkerk@gmail.com');
 			
-			$this->email->subject('Email Test');
+			$nome = $this->input->post('nome');
+			$email = $this->input->post('email');
+
+			$this->email->from($email, $nome);
+			$this->email->to('jeovania@acens.com.br');
+			
+			$this->email->subject('Email Teste');
 			$this->email->message($this->input->post('mensagem'));
 
 			$this->email->send();
-			echo $this->email->print_debugger();
+			/*echo $this->email->print_debugger();*/
 			
 			$this->load->view('obrigado');
 		} else {

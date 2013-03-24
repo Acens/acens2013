@@ -5,7 +5,7 @@ class Principal extends CI_Controller {
 	public function index() {
 		$temcurso = array('curso' => 'true'); //'true' (mostra a pagina cursos) 
 		//'false' (o contrario :P - e mostra o aviso no menu)
-
+		$this->lang->load('titulos');
 		$this -> load -> view('includes/header');
 		$this -> load -> view('includes/menu', $temcurso);
 		$this -> load -> view('includes/home');
@@ -15,7 +15,12 @@ class Principal extends CI_Controller {
 		if ($temcurso['curso'] == "true") {
 			$this -> load -> view('includes/cursos');
 		}
-		$this -> load -> view('includes/contato');
+		$this -> load -> view('includes/contact');
+	}
+	
+	public function promocao(){
+		$this -> load -> view('includes/header');
+		$this -> load -> view('includes/promocao');
 	}
 }
 ?>

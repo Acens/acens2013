@@ -1,5 +1,5 @@
 <section id="sobre">
-	<h1>Sobre a Acens</h1>
+	<h1><?php echo lang('sobre_titulo');?></h1>
 	<div>
 		<ul>
 			<?php
