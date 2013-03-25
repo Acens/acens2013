@@ -45,19 +45,19 @@
 			<li class="float_left slidetop">
 				<h4>Fazemos parte do MEJ</h4>
 				<hr />
-				<p>O <span class="azul">MEJ</span> (Movimento Empresa Júnior) é um fenômeno global...</p>
+				<p>O <span class="azul">MEJ</span> (Movimento Empresa Júnior) surgiu na França, em 1967, possuindo como principal objetivo complementar a formação acadêmica de seus participantes fornecendo experiências práticas.Na década de 80 o modelo francês consolidou-se e começou...</p>
 				<a class="button icon chat" href="http://www.fejece.com.br/mej/movimento-empresa-junior/" target="_blank"><span>Saiba Mais</span></a>
 			</li>
 			<li class="float_left">
 				<h4>Conheça a FEJECE</h4>
 				<hr />
-				<p>A <span class="amarelo">FEJECE</span> (Federação das Empresas Juniores do Estado do Ceará) </p>
+				<p>A <span class="amarelo">FEJECE</span> (Federação das Empresas Juniores do Estado do Ceará) foi fundada por Empresas Juniores locais com o intuito de incentivar e regulamentar o MEJ cearense, ainda jovem. Com projetos arrojados a FEJECE lançou desde o inicio projetos... </p>
 				<a class="button icon chat" href="http://www.fejece.com.br/" target="_blank"><span>Saiba Mais</span></a>
 			</li>
 			<li class="float_left">
 				<h4>Conheça a Brasil Júnior</h4>
 				<hr />
-				<p>A <span class="verde">Brasil Júnior</span> (Confederação Brasileira de Empresas Juniores) tem como finalidades representar as empresas juniores em nível nacional e desenvolver o Movimento Empresa Júnior como agente de educação empresarial e gerador de novos negócios.</p>
+				<p>A <span class="verde">Brasil Júnior</span> (Confederação Brasileira de Empresas Juniores) tem como finalidades representar as empresas juniores em nível nacional e desenvolver o Movimento Empresa Júnior como agente de educação empresarial e gerador de novos negócios. </p>
 				<a class="button icon chat" href="http://www.brasiljunior.org.br" target="_blank"><span>Saiba Mais</span></a>
 			</li>
 		</ul>

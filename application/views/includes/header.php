@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="sites, desenvolvimento, sistemas, ti, empresa, android, redes, sociais">
+        <meta name="description" content="Empresa Júnior de TI, especialiada em desenvolvimento de sites e sistemas web.">
         <title>Acens - Mentes em desenvolvimento</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/style.css" />
         <!-- Internet Explorer HTML5 enabling code: -->
@@ -20,9 +22,9 @@
         }
         </style>
         <![endif]-->
-        <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-1.7.2.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>/js/plugins.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>/js/scripts.js"></script>
+        <script type="text/javascript" async src="<?php echo base_url(); ?>/js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" async src="<?php echo base_url(); ?>/js/plugins.min.js"></script>
+        <script type="text/javascript" async src="<?php echo base_url(); ?>/js/scripts.js"></script>
     </head>
 	    <!-- begin olark code Codigo do Chat-->
     <script data-cfasync="false" type='text/javascript'>

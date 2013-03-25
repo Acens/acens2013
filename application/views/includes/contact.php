@@ -57,12 +57,6 @@
 	<p><?php echo lang('endereco_titulo');?></p>
 	<p><?php echo lang('telefone_titulo');?></p>
 	<p><?php echo lang('creditos_titulo');?></p>
-	<ul id="tecnologias">
-		<li><a class="html5logo" title="Site feito usando HTML5"/>
-		</li>
-		<li><a class="css3logo" title="Site feito usando CSS3"/>
-		</li>
-	</ul>
 </div>
 </body>
 </html>

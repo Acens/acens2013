@@ -1,27 +1,5 @@
 <header id="slides">
     <ul class="slides-container">
-        <li id="homepage_logo">
-            <div class="container">
-                <div class="conteudo_home">
-                    <div class="circulologo" data-percent="100">
-                        <div href="#" class="seta1" ></div>
-                        <div href="#" class="seta2" ></div>
-                        <div href="#" class="seta3" ></div>
-                    </div>
-                    <hgroup>
-                        <p class="home_text1">
-                            acens
-                        </p>
-                        <p class="home_text2">
-                            mentes em desenvolvimento
-                        </p>
-                    </hgroup>
-                    <p class="home_text3">
-                        Idealizando sonhos, desenvolvendo projetos.
-                    </p>
-                </div>
-            </div>
-        </li>
         <li>
             <img src="<?php echo base_url(); ?>/img/slide/NovoSite.png" alt="Novo Site no Ar.">
             <div class="container">
@@ -33,6 +11,11 @@
             <div class="container">
             </div>
         </li>      
+        <li>
+            <a href="http://www.acens.com.br/promocao" target="_blank"><img src="<?php echo base_url(); ?>/img/slide/promo5anos.png" alt="Promoção Acens 5 anos"></a>
+            <div class="container">
+            </div>
+        </li>   
     </ul>
 
         
